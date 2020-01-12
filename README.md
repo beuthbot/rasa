@@ -34,7 +34,8 @@ Container stoppen und löschen (inkl. Volumes): docker-compose down --v<br>
 
 ### REST-API für Auslesen der Nutzerabsicht + Entitäten-Extraktion
 Request:
-POST localhost:5005/model/parse
+POST: localhost:5005/model/parse<br>
+
 Body:
 ```json
 {
