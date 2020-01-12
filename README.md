@@ -34,9 +34,45 @@ Container stoppen und löschen (inkl. Volumes): docker-compose down --v<br>
 
 ### REST-API für Auslesen der Nutzerabsicht + Entitäten-Extraktion
 POST localhost:5005/model/parse
+Body:
 ```json
 {
-"text": "Hello, I am Rasa!",
+"text": "Wie ist das Wetter morgen",
+}
+```
+
+Response:
+```json
+{
+  "intent": {
+    "name": "wetter",
+    "confidence": 0.9770106077194214
+  },
+  "entities": [
+    {
+      "start": 19,
+      "end": 25,
+      "value": "morgen",
+      "entity": "Datum",
+      "confidence": 0.9913844236667128,
+      "extractor": "CRFEntityExtractor"
+    }
+  ],
+  "intent_ranking": [
+    {
+      "name": "wetter",
+      "confidence": 0.9770106077194214
+    },
+    {
+      "name": "oeffnungszeiten",
+      "confidence": 0.017914654687047005
+    },
+    {
+      "name": "mensa",
+      "confidence": 0.005074729211628437
+    }
+  ],
+  "text": "Wie ist das Wetter morgen?"
 }
 ```
 https://rasa.com/docs/rasa/api/http-api/#operation/parseModelMessage
