@@ -1,0 +1,2281 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Wann öffnet die Mensa",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Cafeteria",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Beuth",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Beuth Hochschule",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Lernraum",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Bibliothek",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Dekanat",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Asta",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet die Studienverwaltung",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 33,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Mensa heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Mensa morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Mensa übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 34,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Mensa woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Mensa monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Cafeteria heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Cafeteria morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Cafeteria übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Cafeteria woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Cafeteria monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 34,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth Hochschule heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth Hochschule morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth Hochschule übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth Hochschule woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Beuth Hochschule monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Lernraum heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Lernraum morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Lernraum übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 27,
+            "end": 37,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Lernraum woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Lernraum monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Bibliothek heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Bibliothek morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Bibliothek übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Bibliothek woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Bibliothek monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Dekanat heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Dekanat morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Dekanat übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Dekanat woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Dekanat monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Asta heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Asta morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Asta übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Asta woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Asta monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Studienverwaltung heute?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Studienverwaltung morgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Studienverwaltung übermorgen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Studienverwaltung woche?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann schließt die Studienverwaltung monat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Mensa während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Cafeteria während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Beuth während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Beuth Hochschule während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Lernraum während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Bibliothek während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Dekanat während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Asta während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet der Studienverwaltung während der Semesterferien?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 16,
+            "end": 33,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Mensa?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Cafeteria?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Beuth?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Beuth Hochschule?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 45,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Lernraum?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Bibliothek?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Dekanat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Asta?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Schließzeiten in der Studienverwaltung?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 29,
+            "end": 46,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann sind die Sprechzeiten der Professoren?",
+        "intent": "oeffnungszeiten",
+        "entities": []
+      },
+      {
+        "text": "Wann öffnet Mensa?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Cafeteria?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Beuth?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Beuth Hochschule?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Lernraum?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Bibliothek?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Dekanat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Asta?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wann öffnet Studienverwaltung?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Mensa nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Cafeteria nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Beuth nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Beuth Hochschule nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Lernraum nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Bibliothek nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Dekanat nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Asta nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Bleibt die Studienverwaltung nachts geschlossen?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Mensa heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Mensa morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Mensa übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Mensa woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Mensa monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Mensa",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Cafeteria heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Cafeteria morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Cafeteria übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 18,
+            "end": 28,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Cafeteria woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Cafeteria monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth Hochschule heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth Hochschule morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth Hochschule übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth Hochschule woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Beuth Hochschule monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "Beuth",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Lernraum heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Lernraum morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Lernraum übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Lernraum woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Lernraum monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Lernraum",
+            "entity": "Ort"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Bibliothek heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Bibliothek morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Bibliothek übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 19,
+            "end": 29,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Bibliothek woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Bibliothek monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Dekanat heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Dekanat morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Dekanat übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Dekanat woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Dekanat monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Dekanat",
+            "entity": "Ort"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Asta heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Asta morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Asta übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Asta woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Asta monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Asta",
+            "entity": "Ort"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Studienverwaltung heute geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "heute",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Studienverwaltung morgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "morgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Studienverwaltung übermorgen geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "übermorgen",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Studienverwaltung woche geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "woche",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Hat die Studienverwaltung monat geöffnet?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "monat",
+            "entity": "Datum"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Mensa?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 44,
+            "value": "Mensa",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Cafeteria?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Cafeteria",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Beuth?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 44,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Beuth Hochschule?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 55,
+            "value": "Beuth",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Lernraum?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 47,
+            "value": "Lernraum",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Bibliothek?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 49,
+            "value": "Bibliothek",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Dekanat?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "Dekanat",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Asta?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 43,
+            "value": "Asta",
+            "entity": "Ort"
+          }
+        ]
+      },
+      {
+        "text": "Wie steht es um die Öffnungszeiten des Studienverwaltung?",
+        "intent": "oeffnungszeiten",
+        "entities": [
+          {
+            "start": 39,
+            "end": 56,
+            "value": "Studienverwaltung",
+            "entity": "Ort"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

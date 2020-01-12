@@ -1,0 +1,22 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: de
+pipeline: supervised_embeddings
+#pipeline:
+#    - name: "SpacyNLP"
+#    - name: "SpacyTokenizer"
+#    - name: "SpacyFeaturizer"
+#    - name: "RegexFeaturizer"
+#    - name: "CRFEntityExtractor"
+#    - name: "EntitySynonymMapper"
+#    - name: "SklearnIntentClassifier"
+
+#pipeline:
+#    - name: "nlp_spacy"
+#    - name: "tokenizer_spacy"
+#    - name: "ner_crf"
+#    - name: "tokenizer_whitespace"
+#    - name: "intent_featurizer_count_vectors"
+#    - name: "intent_classifier_tensorflow_embedding"
+#      intent_tokenization_flag: true
+#      intent_split_symbol: "+"

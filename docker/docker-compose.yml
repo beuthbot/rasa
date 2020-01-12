@@ -1,0 +1,17 @@
+version: '3.0'
+services:
+  rasa:
+    image: rasa/rasa:1.6.0-spacy-de
+    ports:
+      - 5005:5005
+    volumes:
+      - ./rasa-app-data:/app
+    command:
+      - run
+      - --enable-api
+      - --cors
+      - "*"
+  front:
+    build: ./nlu-api
+    ports:
+      - 3000:3000
