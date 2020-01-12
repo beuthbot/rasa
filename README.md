@@ -30,3 +30,13 @@ Die wichtigsten Dateien und Ordner im Projekt:<br>
 - Erzeugtes Modell unter dem Pfad „rasa-app-data\models“ einfügen<br>
 Container starten: docker-compose up --build<br>
 Container stoppen und löschen (inkl. Volumes): docker-compose down --v<br>
+
+
+### REST-API für Auslesen der Nutzerabsicht + Entitäten-Extraktion
+POST localhost:5005/model/parse
+```json
+{
+"text": "Hello, I am Rasa!",
+}
+```
+https://rasa.com/docs/rasa/api/http-api/#operation/parseModelMessage
