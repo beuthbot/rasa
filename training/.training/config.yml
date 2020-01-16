@@ -23,3 +23,9 @@ pipeline:
       min_ngram: 1
       max_ngram: 4
     - name: "EmbeddingIntentClassifier"
+    - name: "DucklingHTTPExtractor"
+      url: "http://duckling:8000"
+      dimensions: ["time"]
+      locale: "de_DE"
+      timezone: "Europe/Berlin"
+      timeout : 3

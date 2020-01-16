@@ -11,6 +11,10 @@ services:
       - --enable-api
       - --cors
       - "*"
+  duckling:
+    image: rasa/duckling:0.1.6.2
+    ports:
+      - 8000:8000
   front:
     build: ./nlu-api
     ports:
