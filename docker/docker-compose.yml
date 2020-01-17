@@ -15,7 +15,3 @@ services:
     image: rasa/duckling:0.1.6.2
     ports:
       - 8000:8000
-  front:
-    build: ./nlu-api
-    ports:
-      - 3000:3000
