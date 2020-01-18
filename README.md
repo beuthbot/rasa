@@ -119,7 +119,7 @@ rasa shell nlu –m models/name-of-the-model.tar.gz
 
 ### How to train Rasa
 
-In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Datum" or "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". 
+In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". Currently the three user intentions "Mensa", "Wetter" and "Öffnungszeiten" are supported.
 
 
 ![alt text](https://github.com/beuthbot/rasa/blob/master/tracy_example.PNG)
