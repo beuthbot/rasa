@@ -30,7 +30,7 @@ Rasa NLU allows the processing of natural language to classify user intentions a
 
 e.g.
 ```bash
-"Wie ist das Wetter morgen?"
+"Wie ist das Wetter übermorgen?"
 ```
 The user intention is then determined from the text.
 
@@ -38,33 +38,46 @@ The user intention is then determined from the text.
 {
     "intent": {
         "name": "wetter",
-        "confidence": 0.9947004318
+        "confidence": 0.9518181086
     },
     "entities": [
         {
             "start": 19,
-            "end": 25,
-            "value": "morgen",
-            "entity": "Datum",
-            "confidence": 0.9964662995,
-            "extractor": "CRFEntityExtractor"
+            "end": 29,
+            "text": "übermorgen",
+            "value": "2020-01-20T00:00:00.000+01:00",
+            "confidence": 1.0,
+            "additional_info": {
+                "values": [
+                    {
+                        "value": "2020-01-20T00:00:00.000+01:00",
+                        "grain": "day",
+                        "type": "value"
+                    }
+                ],
+                "value": "2020-01-20T00:00:00.000+01:00",
+                "grain": "day",
+                "type": "value"
+            },
+            "entity": "time",
+            "extractor": "DucklingHTTPExtractor"
         }
     ],
     "intent_ranking": [
         {
             "name": "wetter",
-            "confidence": 0.9947004318
+            "confidence": 0.9518181086
         },
         {
             "name": "oeffnungszeiten",
-            "confidence": 0.0048436071
+            "confidence": 0.036207471
         },
         {
             "name": "mensa",
-            "confidence": 0.0004559961
+            "confidence": 0.0119743915
         }
     ],
-    "text": "Wie ist das Wetter morgen?"
+    "text": "Wie ist das Wetter übermorgen?"
 }
 
 ```
@@ -151,7 +164,7 @@ docker exec -it <Container-ID> bash
 
 ## Overview
 
-As part of the chatbot-project, microservices are supposed to run in Docker-Containers. In order to start several different services in containers at the same time, a Docker-Compose-File should be created. A Docker-Image is used for the Rasa NLU.
+As part of the chatbot-project, microservices are supposed to run in Docker-Containers. In order to start several different services in containers at the same time, a Docker-Compose-File should be created. A Docker-Image is used for the Rasa NLU. Duckling has also been added as an Docker-Image for capturing date entries and allows to parse dates in a structured text.
 
 ```bash
 version: '3.0'
@@ -167,6 +180,10 @@ services:
       - --enable-api
       - --cors
       - "*"
+  duckling:
+    image: rasa/duckling:0.1.6.2
+    ports:
+      - 8000:8000
 ```
 
 
