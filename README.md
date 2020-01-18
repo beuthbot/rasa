@@ -129,7 +129,7 @@ Problem: <br>
 The training data can be exported as JSON, but the entered values on the "Tracy" application cannot be exported. 
 
 ### Add new Model for Rasa-Container (Docker)
-You have to add the generated model (tar.gz) under the path "rasa-app-data\models.
+You have to add the generated model (tar.gz) under the path "rasa-app-data\models".
 
 
 
@@ -145,10 +145,10 @@ After the repository has been cloned and the prerequisites have been fulfilled, 
 
 
 ```bash
-# build and start Rasa-NLU-Container && serve at localhost:5005
+# build and start Containers && serve at localhost:5005 (rasa) and at localhost:8000 (duckling)
 docker-compose up
 
-# stop and remove rasa-container, volumes, images and networks
+# stop and remove rasa-containers, volumes, images and networks
 docker-compose down
 
 # do the same steps as "docker-compose down" 
