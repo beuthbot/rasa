@@ -97,7 +97,7 @@ You need the local installation of Rasa to create and test training models. For 
 ### Basic requirements
 The following installations must be made:<br>
 - Pip
-- Python (meine Version 3.6.8)
+- Python (Version 3.6.8)
 - Tensorflow
 - Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
 - If necessary, further installation via pip (depending on the message of the compiler) 
@@ -117,7 +117,7 @@ rasa train nlu
 - Communicating with Rasa NLU on the command line:<br>
 rasa shell nlu –m models/name-of-the-model.tar.gz
 
-### How to train Rasa
+### How to generate training datasets
 
 In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". Currently the three user intentions "Mensa", "Wetter" and "Öffnungszeiten" are supported.
 
