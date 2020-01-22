@@ -11,7 +11,6 @@
 		- [Perform Rasa locally](#perform-rasa-locally)
 		- [Use of Docker](#use-of-docker)
 	- [Overview](#overview)
-	- [Structure](#structure)
 	- [HTTP-API](#http-api)
 		- [Functions](#functions)
 	- [Further Development](#further-development)
