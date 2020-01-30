@@ -2,6 +2,7 @@ version: '3.0'
 services:
   rasa:
     image: rasa/rasa:1.6.0-spacy-de
+    restart: unless-stopped
     ports:
       - 5005:5005
     volumes:
@@ -13,5 +14,6 @@ services:
       - "*"
   duckling:
     image: rasa/duckling:0.1.6.2
+    restart: unless-stopped
     ports:
       - 8000:8000
