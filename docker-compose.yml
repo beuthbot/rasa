@@ -16,4 +16,4 @@ services:
     image: rasa/duckling:0.1.6.2
     restart: unless-stopped
     ports:
-      - 8000:8000
+      - 8000:5006

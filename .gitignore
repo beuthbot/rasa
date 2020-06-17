@@ -1,3 +1,5 @@
 docker/nlu-api/node_modules/
 docker/nlu-api/package-lock.json
 docker/nlu-api/node.exe
+
+.idea
