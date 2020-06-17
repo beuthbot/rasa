@@ -8,16 +8,15 @@
 
 - [Introduction](#Introduction)
 - [Getting Started](#Getting-Started)
-- [Usage](#Usage)
-  - [REST API](#REST-API)
-  - New Training Data
+- [Usage REST API](#Usage-REST-API)
 - [Overview](#Overview)
   - [Project Structure](#Project-Structure)
   - [Functionality](#Functionality)
   - [Further Development](#Further-Development)
-- [Build With](#build-with)
-- [Authors](#authors)
-- References / Further Readings
+- [New Training Data](#New-Training-Data)
+- [Build With](#Build-With)
+- [References / Further Readings](#References-Further-Readings)
+- [Authors](#Authors)
 
 ## Introduction
 
@@ -30,6 +29,20 @@ Rasa NLU allows the processing of natural language to classify user intentions a
 ## Getting Started
 
 The following instructions help you to install RASA for the BeuthBot.
+
+### 0. Requirements
+
+#### Development & Release
+
+- `Docker` version 19.03.8
+- `docker-compose `version 1.25.0
+
+Lower versions of `Docker` and `docker-compose `may work but are not tested.
+
+#### Create Training Data
+
+- `Docker` version 19.03.8
+- `docker-compose `version 1.25.0
 
 ### 1. Clone Repository
 
@@ -51,8 +64,8 @@ Click [here](docker-compose.yml) to see the contents of the `docker-compose.yml`
 
 | Service | Internal Port | External Port |
 | ------- | ------------- | ------------- |
-| [rasa](https://hub.docker.com/r/rasa/rasa) | 5005 | 5005 |
-| [duckling](https://hub.docker.com/r/rasa/duckling) | 8000 | 5006 |
+| [rasa](https://hub.docker.com/r/rasa/rasa) | 500**5** | 500**5** |
+| [duckling](https://hub.docker.com/r/rasa/duckling) | 8000 | 500**6** |
 
 See also [here](https://github.com/beuthbot/beuthbot#default-ports-of-services) for a table displaying the default ports and portmapping of the components of the [BeuthBot](https://github.com/beuthbot).
 
@@ -66,9 +79,7 @@ $ curl http://localhost:5005          # prints "Hello from Rasa: 1.6.0"
 $ curl http://localhost:5006          # prints "quack!"
 ```
 
-## Usage
-
-### REST API
+## Usage REST API
 
 ```http
 POST   http://localhost:5005/model/parse
@@ -150,11 +161,9 @@ Links:
 - [HTTP-API](https://rasa.com/docs/rasa/api/http-api/) (Retrieved 12.12.2019)
 - [OpenAPI-specification](https://rasa.com/docs/rasa/_static/spec/rasa.yml) (Retrieved 12.12.2019)
 
-### New Training Data
-
 ## Overview
 
-
+> TBD
 
 ### Project structure
 
@@ -172,7 +181,21 @@ Links:
 
 ### Functionality
 
+> TBD
+
 ### Further Development
+
+As of the RASA team maintaining the RASA docker image this project mainly is about the training data.
+
+## New Training Data
+
+### Step-by-Step Guide
+
+#### 1. 
+
+#### 2. 
+
+#### 3. 
 
 For further development, it is important that the existing training data be expanded and improved.
 
@@ -191,9 +214,7 @@ To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST
 Furthermore Rasa NLU is configurable and is defined by pipelines. These pipelines define how the models are generated with the training data and which entities are extracted. For this, a preconfigured pipeline with "supervised_embeddings" is used. "supervised_embeddings" allows to tokenize any languages.
 
 
-
-
-## Perform Rasa locally
+### Perform Rasa locally
 You need the local installation of Rasa to create and test training models. For this, you use the directory "training".
 
 ### Basic requirements
@@ -220,41 +241,21 @@ Problem: <br>
 
 The training data can be exported as JSON, but the entered values on the "Tracy" application cannot be exported. 
 
-### Add new Model for Rasa-Container (Docker)
 You have to add the generated model (tar.gz) under the path "rasa-app-data\models".
 
-- 
+## References / Further Readings
 
-
-## Further Development
-
-
-
-
-## Further Reading
-
-- [Rasa Documentation](https://rasa.com/docs/rasa/) (Retrieved 12.12.2019)
-- [Running Rasa with Docker](https://rasa.com/docs/rasa/user-guide/running-rasa-with-docker/) (Retrieved 12.12.2019)
-
-
-## Built With
-
+- https://rasa.com/ (Retrieved 12.12.2019)
+- https://botfriends.de/botwiki/rasa (Retrieved 12.12.2019)
+- https://www.artificial-solutions.com/wp-content/uploads/chatbots-ebook-deutsche.pdf (Retrieved 12.12.2019) 
+- https://docs.docker.com/ (Retrieved 12.12.2019)
 - [Docker-Compose](https://docs.docker.com/compose/) (Retrieved 12.12.2019)
 - [Docker Hub Rasa](https://hub.docker.com/r/rasa/rasa) (Retrieved 12.12.2019)
-
-## Use of Docker
-You will need to install Docker in order to use the Docker-Compose-file for running the application. Docker is required for the chatbot project.
-
-[Installation instructions for Docker](https://docs.docker.com/install/)
+- [Rasa Documentation](https://rasa.com/docs/rasa/) (Retrieved 12.12.2019)
+- [Running Rasa with Docker](https://rasa.com/docs/rasa/user-guide/running-rasa-with-docker/) (Retrieved 12.12.2019)
 
 ## Authors
 
 - **Abirathan Yogarajah**
 - **Lukas Danckwerth** - [GitHub](https://github.com/lukasdanckwerth)
 
-
-## References
-- https://rasa.com/ (Retrieved 12.12.2019)
-- https://botfriends.de/botwiki/rasa (Retrieved 12.12.2019)
-- https://www.artificial-solutions.com/wp-content/uploads/chatbots-ebook-deutsche.pdf (Retrieved 12.12.2019) 
-- https://docs.docker.com/ (Retrieved 12.12.2019)
