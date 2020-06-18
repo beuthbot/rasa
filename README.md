@@ -2,18 +2,19 @@
 
 ![Icon](.documentation/Icon100.png "Icon")
 
-> RASA NLU processor to capture entities from text-messages and determine user-intentions.
+> Rasa NLU processor to capture entities from text-messages and determine user-intentions.
 
 ## Contents
 
 - [Introduction](#Introduction)
 - [Getting Started](#Getting-Started)
 - [Usage REST API](#Usage-REST-API)
+	- [Interpretate a message (NLU Processing)](#Interpretate-a-message-(NLU-Processing))
 - [Overview](#Overview)
   - [Project Structure](#Project-Structure)
   - [Functionality](#Functionality)
 - [New Training Data](#New-Training-Data)
-  - [Create model with local RASA installation](#Create-model-with-local-RASA-installation)
+  - [Create model with local Rasa installation](#Create-model-with-local-Rasa-installation)
   - [Create model with Docker](#Create-model-with-Docker)
   - [Training Data Format](#Training-Data-Format)
 - [References / Further Readings](#References-Further-Readings)
@@ -29,9 +30,9 @@ Rasa NLU allows the processing of natural language to classify user intentions a
 
 ## Getting Started
 
-The following instructions help you to install RASA for the BeuthBot.
+The following instructions help you to install Rasa for the BeuthBot.
 
-### 0. Requirements
+### 0 Requirements
 
 #### Development & Release
 
@@ -45,17 +46,17 @@ Lower versions of `Docker` and `docker-compose `may work but are not tested.
 - `Docker` version 19.03.8
 - `docker-compose `version 1.25.0
 
-### 1. Clone Repository
+### 1 Clone Repository
 
 ```shell
 # clone project
-$ git clone https://github.com/beuthbot/rasa.git
+$ git clone https://github.com/beuthbot/Rasa.git
 
 # change into project directory
-$ cd rasa
+$ cd Rasa
 ```
 
-### 2. Run with `docker-compose`
+### 2 Run with `docker-compose`
 
 ```bash
 # build and start containers defined in the `docker-compose.yml`
@@ -73,41 +74,38 @@ Click [here](docker-compose.yml) to see the contents of the `docker-compose.yml`
 
 See also [here](https://github.com/beuthbot/beuthbot#default-ports-of-services) for a table displaying the default ports and portmapping of the components of the [BeuthBot](https://github.com/beuthbot).
 
-### 3. Confirm the container is running
+### 3 Confirm the container is running
 
 ```shell
-# check rasa service running
+# check Rasa service running
 $ curl http://localhost:5005          # prints "Hello from Rasa: 1.6.0"
 ```
 
-#### Local RASA installation
+#### Local Rasa installation
 
 The following installations must be made:
 
  - `pip`
  - `python` (Version 3.6.8)
  - `tensorflow`
- - Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
+ - Making further installations (https://Rasa.com/docs/Rasa/user-guide/installation/)
 
 > If necessary, make further installation via `pip` (depending on the message of the compiler)
 
 ## Usage REST API
 
-RASA offers a Rest API. The API can be splitted in the following groups:
+Rasa offers a Rest API. This section lists the most important resources of the Rasa Rest API. For further information and full documentation check the next links:
 
-- **Serverinformation**: You can query the Rasa-server whether it is still running or which Rasa version is available. You can also check which model Rasa is currently using.
-- **Model**: You can send requests via the Rest API of the Rasa server to create a trained model or load the model into Rasa. You can also send text to the server and Rasa will then determine the user's intention and the confidence score.
+- [HTTP-API](https://Rasa.com/docs/Rasa/api/http-api/) (Retrieved 12.12.2019)
+- [OpenAPI-specification](https://Rasa.com/docs/Rasa/_static/spec/Rasa.yml) (Retrieved 12.12.2019)
 
-This section lists the most important resources of the RASA Rest API. For further information and full documentation check the next links:
-
-- [HTTP-API](https://rasa.com/docs/rasa/api/http-api/) (Retrieved 12.12.2019)
-- [OpenAPI-specification](https://rasa.com/docs/rasa/_static/spec/rasa.yml) (Retrieved 12.12.2019)
-
-### Interpretate a message
+### Interpretate a message (NLU Processing)
 
 ```http
 POST   http://localhost:5005/model/parse
 ```
+
+Use this [link](https://rasa.com/docs/rasa/api/http-api/#operation/parseModelMessage) for further information about this endpoint.
 
 #### Request Schema - `Message`
 
@@ -115,11 +113,11 @@ POST   http://localhost:5005/model/parse
 {
   "text": "Wie wird das Wetter morgen?",
   "min_confidence_score": 0.8,
-  "processors": ["rasa"]
+  "processors": ["Rasa"]
 }
 ```
 
-Whereas the specification of the `min_confidence_score` and the`processors` is optional. If not minimum confidence score is given a default one is used (by now this is `0.8`). For now there is only the usage of RASA implemented so there is no effect of specifying the `processors` property.
+Whereas the specification of the `min_confidence_score` and the`processors` is optional. If not minimum confidence score is given a default one is used (by now this is `0.8`). For now there is only the usage of Rasa implemented so there is no effect of specifying the `processors` property.
 
 #### Response Schema - `Answer`
 
@@ -172,6 +170,27 @@ The response for a successfully processed request to the deconcentrator contains
 }
 ```
 
+### Server Information
+
+| Method | Endpoint                      | About                                                        |
+| ------ | ----------------------------- | ------------------------------------------------------------ |
+| `GET`  | `/` | This URL can be used as an endpoint to run health checks against. When the server is running this will return 200 |
+| `GET`  | `/version` | Returns the version of Rasa |
+| `GET`  | `/status` | Information about the server and the currently loaded Rasa model |
+
+Use this [link](https://rasa.com/docs/rasa/api/http-api/#tag/Server-Information) for further information about these endpoints.
+
+### Model
+
+| Method | Endpoint       | About                              |
+| ------ | -------------- | ---------------------------------- |
+| `GET`  | `/model/train` | Train a Rasa model                 |
+| `PUT`  | `/model        | Replace the currently loaded model |
+| `DEL`  | `/model        | Unload the trained model           |
+| `GET`  | `/domain       | Retrieve the loaded domain         |
+
+Use this [link](https://rasa.com/docs/rasa/api/http-api/#tag/Model) for further information about these endpoints.
+
 ## Overview
 
 > TBD
@@ -188,37 +207,37 @@ The response for a successfully processed request to the deconcentrator contains
 
 | **Directories** | **About** |
 | :------- | ----- |
-| [`.documentation/`](.documentation) | Contains files for documentation |
+| `.documentation/` | Contains files for documentation |
 | | |
-| `app/` | Volume mounted by the productive **RASA** Docker container |
+| `app/` | Volume mounted by the productive Rasa Docker container |
 | `app/model/` | Contains the trained model (`.tar.gz`) |
 | | |
 | `tests/` | Contains tests |
 | | |
 | `training/` | Contains files realted to training |
-| `training/docker-compose.yml` | Defines the **RASA** training container |
-| `training/app/` | Volume mounted by the productive **RASA** Docker container |
-| `training/app/config.yml` | Configuration for **RASA** training |
-| `training/app/credentials.yml` | Credentials for **RASA** training |
-| `training/app/domain.yml` | Domain related stuff for **RASA** training |
+| `training/docker-compose.yml` | Defines the Rasa training container |
+| `training/app/` | Volume mounted by the productive Rasa Docker container |
+| `training/app/config.yml` | Configuration for Rasa training |
+| `training/app/credentials.yml` | Credentials for Rasa training |
+| `training/app/domain.yml` | Domain related stuff for Rasa training |
 | `training/app/endpoints.yml` | Define endpoints e.g. for webhooks or event brokers |
-| `training/app/data/` | Contains training data for **RASA** in the form of `JSON` (or `Markdown`) files. This is the place for new learning data, e.g. when you are adding a new microservice. |
-| `training/app/model/` | Contains the trained model generated by RASA (`.tar.gz`) |
+| `training/app/data/` | Contains training data for Rasa in the form of `JSON` (or `Markdown`) files. This is the place for new learning data, e.g. when you are adding a new microservice. |
+| `training/app/model/` | Contains the trained model generated by Rasa (`.tar.gz`) |
 
 
 ### Functionality
 
 > TBD
 
-#### RASA as NLU processor
+#### Rasa as NLU processor
 
-#### RASA as trainer
+#### Rasa as trainer
 
 ## New Training Data
 
 Training data is needed so that Rasa can identify the intention of a text. Training data can be created in the form of Markdown or JSON. You can define this data in a single file or in multiple files in a directory. 
 
-To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST API. An alternative to creating trained models is to install Rasa on your local machine and then create the model using the command "rasa train nlu". Rasa creates the training model (tar.gz) from the Markdown or JSON.
+To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST API. An alternative to creating trained models is to install Rasa on your local machine and then create the model using the command "Rasa train nlu". Rasa creates the training model (tar.gz) from the Markdown or JSON.
 
 > For further development, it is important that the existing training data be expanded and improved.
 
@@ -226,15 +245,15 @@ To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST
 
 #### 1 -  Provide new training data
 
-Modify or add files in the `training/app/data/` directory to provide new training data for **RASA**. Have a look at the existing `.json` files and how they define the training data. For convenient training data checkout the `Tracy` tool on either the [GitHub Project](https://github.com/YuukanOO/tracy) or the [Tracy section](#tracy) in this document. For more information about the format of the training data file you can have a look at the [Training Data Format section](#Training-Data-Format).
+Modify or add files in the `training/app/data/` directory to provide new training data for Rasa. Have a look at the existing `.json` files and how they define the training data. For convenient training data checkout the `Tracy` tool on either the [GitHub Project](https://github.com/YuukanOO/tracy) or the [Tracy section](#tracy) in this document. For more information about the format of the training data file you can have a look at the [Training Data Format section](#Training-Data-Format).
 
 Furthermore Rasa NLU is configurable and is defined by pipelines. These pipelines define how the models are generated with the training data and which entities are extracted. For this, a preconfigured pipeline with "supervised_embeddings" is used. "supervised_embeddings" allows to tokenize any languages.
 
-#### 2 - Create  model with **RASA**
+#### 2 - Create  model with Rasa
 
-There are two ways of generating models from training data. Either with a local RASA installation or with withing a Docker container. The preferred way is to use the Docker container.
+There are two ways of generating models from training data. Either with a local Rasa installation or with withing a Docker container. The preferred way is to use the Docker container.
 
-> Check the `config.yml` for configuration of RASA pipeline (how the trained model is generated).
+> Check the `config.yml` for configuration of Rasa pipeline (how the trained model is generated).
 
 Change into the `training` directory.
 
@@ -242,12 +261,12 @@ Change into the `training` directory.
 $ cd training
 ```
 
-##### 2.1 - Create model with local RASA installation
+##### 2.1 - Create model with local Rasa installation
 
-Create training model with local `rasa` command.
+Create training model with local `Rasa` command.
 
 ```bash
-$ rasa train nlu
+$ Rasa train nlu
 ```
 
 ##### 2.2 - Create model with Docker
@@ -269,22 +288,22 @@ $ ls -la app/models
 
 #### 4 - Replace existing models file
 
-The model file which is used by **RASA** in production is placed in the `app/models` directory. Replace this file with the newly generated model file.
+The model file which is used by Rasa in production is placed in the `app/models` directory. Replace this file with the newly generated model file.
 
 ```bash
 # delete existing model (if you are still in `training` directory)
 $ rm -rf ../app/models/*
 
-# .. or from `rasa` directory
+# .. or from `Rasa` directory
 $ rm -rf app/models/*
 ```
 
-#### 5 - Restart RASA container or complete BeuthBot container
+#### 5 - Restart Rasa container or complete BeuthBot container
 
 For development:
 
 ```bash
-# assuming you are in the `rasa` main directory
+# assuming you are in the `Rasa` main directory
 $ docker-compose up -d --build
 ```
 
@@ -294,7 +313,7 @@ $ docker-compose up -d --build
 
 ### Tracy
 
-> Tracy helps you creating training data. This data can be used by RASA to create the model.
+> Tracy helps you creating training data. This data can be used by Rasa to create the model.
 
 In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". Currently the three user intentions "Mensa", "Wetter" and "Öffnungszeiten" are supported.
 
@@ -304,14 +323,14 @@ In this project we write training data in the form of JSON, because Markdown doe
 
 ## References / Further Readings
 
-- https://rasa.com/ (Retrieved 12.12.2019)
-- https://botfriends.de/botwiki/rasa (Retrieved 12.12.2019)
+- https://Rasa.com/ (Retrieved 12.12.2019)
+- https://botfriends.de/botwiki/Rasa (Retrieved 12.12.2019)
 - https://www.artificial-solutions.com/wp-content/uploads/chatbots-ebook-deutsche.pdf (Retrieved 12.12.2019) 
 - https://docs.docker.com/ (Retrieved 12.12.2019)
 - [Docker-Compose](https://docs.docker.com/compose/) (Retrieved 12.12.2019)
-- [Docker Hub Rasa](https://hub.docker.com/r/rasa/rasa) (Retrieved 12.12.2019)
-- [Rasa Documentation](https://rasa.com/docs/rasa/) (Retrieved 12.12.2019)
-- [Running Rasa with Docker](https://rasa.com/docs/rasa/user-guide/running-rasa-with-docker/) (Retrieved 12.12.2019)
+- [Docker Hub Rasa](https://hub.docker.com/r/Rasa/Rasa) (Retrieved 12.12.2019)
+- [Rasa Documentation](https://Rasa.com/docs/Rasa/) (Retrieved 12.12.2019)
+- [Running Rasa with Docker](https://Rasa.com/docs/Rasa/user-guide/running-Rasa-with-docker/) (Retrieved 12.12.2019)
 
 ## Authors
 
