@@ -1,0 +1,133 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "wird es heute an der Beuth regnen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wird es morgen windig?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wie wird das Wetter in Berlin sein?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "brauche ich für diese Woche einen Mantel?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "ist das Wetter heute regnen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wird es bald schneien?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "kommt es morgen zu einem Orkan?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wird heute Niederschlag erwartet?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "fängt es an zu regnen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "kommt es heute zu einem Niederschlag?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "kommt übermorgen Starkregen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wird es morgen heiß?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "gibt es heute Nebel?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "gibt es heute Pollen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "kann ich heute Fahrrad fahren?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "ist es glatt?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "ist der Weg matschig?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "haben wir heute Höchsttemperaturen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "wird es in 3 Tagen regnen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "kann ich heute mit dem T-Shirt zur Uni gehen?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "Brauche ich heute einen Regenschirm?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "Brauche ich heute Handschuhe?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "Schneit es heute?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "Wird es heute sehr kalt?",
+        "intent": "wetter",
+        "entities": []
+      },
+      {
+        "text": "Scheint heute die Sonne?",
+        "intent": "wetter",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

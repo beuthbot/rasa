@@ -65,7 +65,7 @@ Click [here](docker-compose.yml) to see the contents of the `docker-compose.yml`
 | Service | Internal Port | External Port |
 | ------- | ------------- | ------------- |
 | [rasa](https://hub.docker.com/r/rasa/rasa) | 500**5** | 500**5** |
-| [duckling](https://hub.docker.com/r/rasa/duckling) | 8000 | 500**6** |
+| [duckling](https://hub.docker.com/r/rasa/duckling) | 8000 | - |
 
 See also [here](https://github.com/beuthbot/beuthbot#default-ports-of-services) for a table displaying the default ports and portmapping of the components of the [BeuthBot](https://github.com/beuthbot).
 
@@ -167,16 +167,24 @@ Links:
 
 ### Project structure
 
-| Location | About |
+| **Location** | **About** |
 | :------- | ----- |
 | `docker-compose.yml` | Defines the rasa service and duckling service |
 | `README.md` | The document you are currently reading |
 | `.documentation/` | Contains file for documentation |
-| `rasa-app-data/` | Volume mounted by the rasa Docker container.  Provides app data used by RASA |
-| `rasa-app-data/model` | Contains the machine learning trained model (`.tar.gz`) |
-| `training/` | Bla |
-| `training/data/` | Bla |
-| `training/model/` | Bla |
+| `app/` | Volume mounted by the RASA Docker container. |
+| `app/model/` | Contains the machine learning trained model (`.tar.gz`) |
+| `tests/` | Contains tests |
+| `training/` | Contains files realted to training |
+| `training/docker-compose.yml` | Contains files realted to training |
+| `training/Dockerfile` | Contains files realted to training |
+| `training/app/` | Contains RASA app files |
+| `training/app/config.yml` | Configuration for RASA |
+| `training/app/credentials.yml` | Credentials associated with RASA |
+| `training/app/domain.yml` | ... |
+| `training/app/endpoints.yml` | ... |
+| `training/app/data/` | Contains basis data to train RASA.  This is the place for new learning data, e.g. when you are adding a new microservice |
+| `training/app/model/` | Contains the model which is created by RASA (`.tar.gz`) |
 
 
 ### Functionality
@@ -188,6 +196,35 @@ Links:
 As of the RASA team maintaining the RASA docker image this project mainly is about the training data.
 
 ## New Training Data
+
+#### Create Model with local RASA installation
+
+##### Basic requirements
+The following installations must be made:
+
+- Pip
+- Python (Version 3.6.8)
+- Tensorflow
+- Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
+- If necessary, further installation via pip (depending on the message of the compiler) 
+
+### Commands (execute in the directory '.training')
+
+```bash
+# Create training-model
+$ rasa train nluwh 
+```
+
+```bash
+# Communicating with Rasa NLU on the command line
+$ rasa shell nlu –m models/name-of-the-model.tar.gz
+```
+
+#### Create Model with Dockerfile
+
+```
+
+```
 
 ### Step-by-Step Guide
 
@@ -213,35 +250,15 @@ To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST
 
 Furthermore Rasa NLU is configurable and is defined by pipelines. These pipelines define how the models are generated with the training data and which entities are extracted. For this, a preconfigured pipeline with "supervised_embeddings" is used. "supervised_embeddings" allows to tokenize any languages.
 
+### [Tracy](https://github.com/YuukanOO/tracy)
 
-### Perform Rasa locally
-You need the local installation of Rasa to create and test training models. For this, you use the directory "training".
-
-### Basic requirements
-The following installations must be made:<br>
-- Pip
-- Python (Version 3.6.8)
-- Tensorflow
-- Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
-- If necessary, further installation via pip (depending on the message of the compiler) 
-
-### Commands (execute in the directory '.training')
-- Create training-model: <br>
-rasa train nluwh 
-- Communicating with Rasa NLU on the command line:<br>
-rasa shell nlu –m models/name-of-the-model.tar.gz
-
-### How to generate training datasets
+> Tracy helps you creating training data. This data can be used by RASA to create the model.
 
 In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". Currently the three user intentions "Mensa", "Wetter" and "Öffnungszeiten" are supported.
 
 ![Icon](.documentation/TracyExample.png "Icon")
 
-Problem: <br>
-
-The training data can be exported as JSON, but the entered values on the "Tracy" application cannot be exported. 
-
-You have to add the generated model (tar.gz) under the path "rasa-app-data\models".
+> Problem: The training data can be exported as JSON, but the entered values on the "Tracy" application cannot be exported.
 
 ## References / Further Readings
 

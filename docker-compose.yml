@@ -6,7 +6,7 @@ services:
     ports:
       - 5005:5005
     volumes:
-      - ./rasa-app-data:/app
+      - ./app:/app
     command:
       - run
       - --enable-api
@@ -15,5 +15,3 @@ services:
   duckling:
     image: rasa/duckling:0.1.6.2
     restart: unless-stopped
-    ports:
-      - 5006:8000
