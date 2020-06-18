@@ -12,9 +12,10 @@
 - [Overview](#Overview)
   - [Project Structure](#Project-Structure)
   - [Functionality](#Functionality)
-  - [Further Development](#Further-Development)
 - [New Training Data](#New-Training-Data)
-- [Build With](#Build-With)
+  - [Create model with local RASA installation](#Create-model-with-local-RASA-installation)
+  - [Create model with Docker](#Create-model-with-Docker)
+  - [Training Data Format](#Training-Data-Format)
 - [References / Further Readings](#References-Further-Readings)
 - [Authors](#Authors)
 
@@ -49,6 +50,9 @@ Lower versions of `Docker` and `docker-compose `may work but are not tested.
 ```shell
 # clone project
 $ git clone https://github.com/beuthbot/rasa.git
+
+# change into project directory
+$ cd rasa
 ```
 
 ### 2. Run with `docker-compose`
@@ -69,14 +73,11 @@ Click [here](docker-compose.yml) to see the contents of the `docker-compose.yml`
 
 See also [here](https://github.com/beuthbot/beuthbot#default-ports-of-services) for a table displaying the default ports and portmapping of the components of the [BeuthBot](https://github.com/beuthbot).
 
-### 3. Confirm the services are running
+### 3. Confirm the service is running
 
 ```shell
 # check rasa service running
 $ curl http://localhost:5005          # prints "Hello from Rasa: 1.6.0"
-
-# check duckling service running
-$ curl http://localhost:5006          # prints "quack!"
 ```
 
 ## Usage REST API
@@ -167,17 +168,21 @@ Links:
 
 ### Project structure
 
-| **Location** | **About** |
+| **Files** | **About** |
 | :------- | ----- |
+| `.documentation/` | Contains file for documentation |
 | `docker-compose.yml` | Defines the rasa service and duckling service |
 | `README.md` | The document you are currently reading |
-| `.documentation/` | Contains file for documentation |
+| `Makefile` | Defines convenient run / training commands |
+| `app-models` | Symlink to `app/model/` |
+| `training-data` | Symlink to `training/app/data` |
+| | |
+| **Directories** | **About** |
 | `app/` | Volume mounted by the RASA Docker container. |
 | `app/model/` | Contains the machine learning trained model (`.tar.gz`) |
 | `tests/` | Contains tests |
 | `training/` | Contains files realted to training |
 | `training/docker-compose.yml` | Contains files realted to training |
-| `training/Dockerfile` | Contains files realted to training |
 | `training/app/` | Contains RASA app files |
 | `training/app/config.yml` | Configuration for RASA |
 | `training/app/credentials.yml` | Credentials associated with RASA |
@@ -191,39 +196,41 @@ Links:
 
 > TBD
 
-### Further Development
-
-As of the RASA team maintaining the RASA docker image this project mainly is about the training data.
-
 ## New Training Data
 
-#### Create Model with local RASA installation
+Training data is needed so that Rasa can identify the intention of a text. Training data can be created in the form of Markdown or JSON. You can define this data in a single file or in multiple files in a directory. 
 
-##### Basic requirements
+To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST API. An alternative to creating trained models is to install Rasa on your local machine and then create the model using the command "rasa train nlu". Rasa creates the training model (tar.gz) from the Markdown or JSON.
+
+There are two ways of generating models from training data. Either with a local RASA installation or with withing a Docker container.
+
+### Create model with local RASA installation
+
+#### Basic requirements
 The following installations must be made:
+ - `pip`
+ - `python` (Version 3.6.8)
+ - `tensorflow`
+ - Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
+ - __If necessary, further installation via pip (depending on the message of the compiler) __
 
-- Pip
-- Python (Version 3.6.8)
-- Tensorflow
-- Making further installations (https://rasa.com/docs/rasa/user-guide/installation/)
-- If necessary, further installation via pip (depending on the message of the compiler) 
-
-### Commands (execute in the directory '.training')
+#### Train model
 
 ```bash
-# Create training-model
-$ rasa train nluwh 
+# create training model
+$ rasa train nlu
 ```
 
 ```bash
-# Communicating with Rasa NLU on the command line
+# communicating with local RASA NLU on the command line
 $ rasa shell nlu –m models/name-of-the-model.tar.gz
 ```
 
-#### Create Model with Dockerfile
+### Create model with Docker
 
-```
-
+```bash
+# build and run the training docker container
+$ docker-compose -f docker-compose.training.yml up --build
 ```
 
 ### Step-by-Step Guide
@@ -244,11 +251,13 @@ For further development, it is important that the existing training data be expa
 - /models: <br>
   contains the trained model in the form of tar.gz.files The model is needed to capture entities and the user intent of a message.
 
-Training data is needed so that Rasa can identify the intention of a text. Training data can be created in the form of Markdown or JSON. You can define this data in a single file or in multiple files in a directory. 
 
-To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST API. An alternative to creating trained models is to install Rasa on your local machine and then create the model using the command "rasa train nlu". Rasa creates the training model (tar.gz) from the Markdown or JSON.
 
 Furthermore Rasa NLU is configurable and is defined by pipelines. These pipelines define how the models are generated with the training data and which entities are extracted. For this, a preconfigured pipeline with "supervised_embeddings" is used. "supervised_embeddings" allows to tokenize any languages.
+
+### Training Data Format
+
+
 
 ### [Tracy](https://github.com/YuukanOO/tracy)
 
