@@ -15,3 +15,6 @@ services:
   duckling:
     image: rasa/duckling:0.1.6.2
     restart: unless-stopped
+# LD: it's not necessary that duckling expand it's port.
+#    ports:
+#      - 8000:8000
