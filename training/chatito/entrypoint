@@ -1,0 +1,20 @@
+#!/bin/sh
+set -x
+set -u
+set -e
+
+function handle_file {
+    local A_FILE="${1}.chatito"
+    local TRAIN_FILE="${1}.json"
+
+    npx chatito ./input/${A_FILE} \
+        --format rasa \
+        --trainingFileName "${TRAIN_FILE}" \
+
+    python -m json.tool \
+        ./${TRAIN_FILE} > ./output/${TRAIN_FILE}
+}
+
+handle_file mensa
+handle_file weather
+handle_file database

@@ -1,0 +1,163 @@
+%[mensa]
+    Zeige mir alle @[pictogram] Gerichte an
+    Welche Gerichte werden empfohlen
+    Was für eine @[dish] gibt es morgen
+    Gibt es heute vegan in der Mensa?
+    Hat das Essen Weizen?
+    Hat das Essen Schweinefleisch?
+    gibt es morgen für Beilagen in der Mensa? hat das Essen Allergene?
+    was gibt es nächste Woche zu essen? werden Beilagen heute angeboten? gibt es heute deutsches Essen?
+    gibt es heute indische Küche?
+    wird nächste Woche vegetarisch gekocht? was ist das beste Essen für heute?
+    was gut schmeckt?
+    gibt es heute schlechtes Essen?
+    sättigt das Essen?
+    gibt es im Essen Mandeln?
+    werden Milchprodukte morgen verkauft?
+    was für ein Nachtisch gibt es morgen?
+    was kostet ein Naturquark?
+    besteht das heutige Angebot aus Salzkartoffeln?
+    wie steht es übermorgen mit Aktionen in der Mensa? welches Essen wird heute empfohlen?
+    welche Snacks gibt es heute?
+    wird vegan heute angeboten?
+    wird nächste Woche Nachtisch angeboten?
+    zeige mir alle roten und grünen Gerichte an
+    was gibt es morgen rotes in der Mensa?
+    gibt es morgen Schwein?
+    Was kann ich heute futtern?
+    Sind in Gerichte Allergene enthalten?
+
+@[pictogram]
+    grün
+    grüne
+    grünes
+    grünen
+    gut
+    gutes
+    gelb
+    gelbe
+    gelbes
+    gelben
+    rot
+    rote
+    rotes
+    roten
+    schlecht
+    schlechtes
+    vegan
+    veganes
+    veganer
+    vegane
+    vegetarisch
+    vegetarisches
+    vegetarischer
+    vegetarische
+    vegetarischen
+    klimaessen
+    fischzutaten
+    fleischzutaten
+    nachhaltig
+
+@[dish]
+    speise
+    speisen
+    salat
+    suppe
+    essen
+    beilage
+    dessert
+    dressing
+    aktion
+    aktionen
+
+@[alergens]
+    allergene
+    allergen
+    glutenhaltig
+    getreide
+    weizen
+    roggen
+    gerste
+    hafer
+    dinkel
+    kamut
+    krebstiere
+    krebstier
+    krebs
+    krebse
+    eier
+    ei
+    fisch
+    fische
+    erdnüsse
+    erdnuss
+    schalenfrüchte
+    schalenfrucht
+    mandeln
+    mandel
+    haselnuss
+    haselnüsse
+    walnuss
+    walnüsse
+    kaschunuss
+    kaschunüsse
+    pacannuss
+    pacannüsse
+    paranuss
+    paranüsse
+    pistazie
+    pistazien
+    macadamia
+    sellerie
+    soja
+    senf
+    milch
+    milchprodukte
+    laktose
+    sesam
+    schwefeldioxid
+    sulfide
+    lupine
+    weichtiere
+    nitritpökelsalz
+    hefe
+
+@[additives]
+    zusatzstoff
+    zusatzstoffe
+    schweinefleisch
+    schwein
+    rind
+    rindfleisch
+    gelatine
+    alkohol
+    geschmacksverstärker
+    gewachst
+    konserviert
+    konservierte
+    konserviertes
+    konservierter
+    antioxidationsmittel
+    farbstoff
+    farbstoffe
+    phosphat
+    phosphate
+    geschwärzt
+    phenylalaninquelle
+    süßungsmittel
+    fleischanteil
+    koffeinhaltig
+    chininhaltig
+    geschwefelt
+    abführend
+
+@[dessert]
+    Nachtisch
+    Naturquark
+    Vanille-Maisgrieß
+    Fruchtcocktail
+    Ananasquark
+    Apfel-Bananen-Joghurt mit Honig
+    Vanillepudding
+    Schokoladenpudding
+    Kirschen

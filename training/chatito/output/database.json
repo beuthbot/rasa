@@ -1,0 +1,104 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "meal-preference",
+                        "start": 19,
+                        "value": "vegetarisch"
+                    }
+                ],
+                "intent": "database-set",
+                "text": "Merk dir, dass ich vegetarisch bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "meal-preference",
+                        "start": 19,
+                        "value": "vegan"
+                    }
+                ],
+                "intent": "database-set",
+                "text": "Merk dir, dass ich vegan bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "meal-preference",
+                        "start": 20,
+                        "value": "vegetarisch"
+                    }
+                ],
+                "intent": "database-set",
+                "text": "Speichere, dass ich vegetarisch bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "meal-preference",
+                        "start": 20,
+                        "value": "vegan"
+                    }
+                ],
+                "intent": "database-set",
+                "text": "Speichere, dass ich vegan bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "meal-preference",
+                        "start": 18,
+                        "value": "vegetarisch"
+                    }
+                ],
+                "intent": "database-remove",
+                "text": "Vergiss, dass ich vegetarisch bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "meal-preference",
+                        "start": 18,
+                        "value": "vegan"
+                    }
+                ],
+                "intent": "database-remove",
+                "text": "Vergiss, dass ich vegan bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "meal-preference",
+                        "start": 17,
+                        "value": "vegetarisch"
+                    }
+                ],
+                "intent": "database-remove",
+                "text": "L\u00f6sche, dass ich vegetarisch bin"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "meal-preference",
+                        "start": 17,
+                        "value": "vegan"
+                    }
+                ],
+                "intent": "database-remove",
+                "text": "L\u00f6sche, dass ich vegan bin"
+            }
+        ],
+        "entity_synonyms": [],
+        "regex_features": []
+    }
+}
