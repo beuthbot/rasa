@@ -14,11 +14,10 @@ WORKDIR /app
 RUN npm i chatito --save
 
 # copy required input sources & execution script
-COPY input /app/input
-COPY entrypoint /app
+COPY entrypoint /
 
 # make entrypoint executable
-RUN chmod +x /app/entrypoint
+RUN chmod +x /entrypoint
 
 # run the entrypoint executable
-ENTRYPOINT /app/entrypoint
+ENTRYPOINT /entrypoint

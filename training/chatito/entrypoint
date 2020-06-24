@@ -8,13 +8,16 @@ function handle_file {
     local TRAIN_FILE="${1}.json"
 
     npx chatito ./input/${A_FILE} \
-        --format rasa \
-        --trainingFileName "${TRAIN_FILE}" \
+        --format="rasa" \
+        --outputPath="/app/output" \
+        --trainingFileName="${TRAIN_FILE}" \
 
     python -m json.tool \
-        ./${TRAIN_FILE} > ./output/${TRAIN_FILE}
+        /app/output/${TRAIN_FILE} > /app/data/${TRAIN_FILE}
 }
 
 handle_file mensa
 handle_file weather
 handle_file database
+
+rm -rf "/app/output"

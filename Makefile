@@ -4,14 +4,19 @@ new_file := $$(ls -Art "$(model_dir_training)" | tail -n 1)
 
 install: $(eval .SILENT:)
 	echo "commands:" && echo ""
-	echo "  train               Starts the Rasa training container"
+	echo "  train               Shorthand for 'train-model' and 'generate-data' and 'update-model'"
+	echo "  train-model         Starts the Rasa training container to create a model file"
+	echo "  generate-data       Generated JSON file from the .chatito file in the '/app/input' directory"
 	echo "  update-model        Copies the newest model file in the '/app/models' directory"
-	echo "  train-and-update    Shorthand for 'train' and 'update-model'"
 	echo ""
 
-train:
-	# starts the Rasa training container
-	cd training; docker-compose up --build
+generate-data:
+	# starts the training data generation container
+	docker-compose -f training/docker-compose.generate-data.yml up
+
+train-model:
+	# starts the Rasa trainings container
+	docker-compose -f training/docker-compose.train-model.yml up
 
 update-model:
 	# remove any existing model file
@@ -20,6 +25,11 @@ update-model:
 	# copy newly generated model file
 	cp $(model_dir_training)/$(new_file) $(model_dir)
 
-train-and-update:
-	train
-	update-model
+train:
+	docker-compose -f training/docker-compose.yml up
+
+	# remove any existing model file
+	rm -rf app/models/nlu-*.tar.gz
+
+    # copy newly generated model file
+	cp $(model_dir_training)/$(new_file) $(model_dir)
