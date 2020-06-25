@@ -1,4 +1,4 @@
-## New Training Data
+# New Training Model
 
 Training data is needed so that Rasa can identify the intention of a text. Training data can be created in the form of Markdown or JSON. You can define this data in a single file or in multiple files in a directory. 
 
@@ -8,7 +8,7 @@ To create a trained model for Rasa from the Markdown or JSON, Rasa offers a REST
 
 ### Step-by-Step Guide
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/beuthbot/rasa/master/.documentation/uml/training.txt)
+![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/beuthbot/rasa/database-understanding/.documentation/uml/training.txt)
 
 #### 1 -  Provide new training data
 
@@ -84,6 +84,15 @@ $ docker-compose up -d --build
 
 In this project we write training data in the form of JSON, because Markdown does not offer the possibility to extract entities from a text message. For this purpose the data was generated with the tool "Tracy" (Link: https://github.com/YuukanOO/tracy ). In the image below, Tracy is shown with "Öffnungszeiten". Entities are added as "slots", such as "Ort". Training data follows in the lower part of the picture. As training data, you can specify messages, which the user can send to the "chatbot". Currently the three user intentions "Mensa", "Wetter" and "Öffnungszeiten" are supported.
 
-![Icon](.documentation/TracyExample.png "Icon")
+![Icon](TracyExample.png "Icon")
 
 > Problem: The training data can be exported as JSON, but the entered values on the "Tracy" application cannot be exported.
+
+### Chatito
+
+Facinig the problem the there is no way to store the entered value in tracy for future data generation we decided using a new tool [Chatito](https://github.com/rodrigopivi/Chatito). Chatito generates traing datasets chatbot models using a simple DSL. For the specification of the DSL see this [link](https://github.com/rodrigopivi/Chatito/blob/master/spec.md).
+
+![Icon](ChatitoScreenshot.jpg "Icon")
+
+We create one Chatito file per service / intent. The files have a `.chatito` extension and are placed in the `/training/data/input` directory. The above [Step-by-Step Guide](#Step-by-Step-Guide) shows you how to create the training dataset from these files.
+
