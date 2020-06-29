@@ -1,0 +1,15 @@
+{
+  "name": "Rasa-Tests",
+  "version": "1.0.0",
+  "description": "Tests for Rasa",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "Lukas Danckwerth",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

@@ -18,3 +18,8 @@ services:
 # LD: it's not necessary that duckling expand it's port.
 #    ports:
 #      - 8000:8000
+
+networks:
+  default:
+    external:
+      name: beuthbot_network

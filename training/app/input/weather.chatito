@@ -1,27 +1,62 @@
 import ./common-entities/date.chatito
+import ./common-entities/cities.chatito
 
-%[weather]
-    wird es @[date?] an der Beuth regnen
-    wird es @[date?] windig
-    wie wird das Wetter in Berlin sein
-    brauche ich für diese Woche einen Mantel
-    wird es @[date?] schneien
-    kommt es @[date?] zu einem Orkan
-    wird @[date?] Niederschlag erwartet
-    fängt es @[date?] an zu regnen
-    kommt es @[date?] zu einem Niederschlag
-    kommt @[date?] Starkregen
-    wird es @[date?] heiß
-    gibt es @[date?] Nebel
-    gibt es @[date?] Pollen
-    kann ich @[date?] Fahrrad fahren
-    ist es @[date?] glatt
-    ist der Weg matschig
-    haben wir @[date?] Höchsttemperaturen
-    wird es in 3 Tagen regnen
-    kann ich @[date?] mit dem T-Shirt zur Uni gehen
-    Brauche ich @[date?] einen Regenschirm
-    Brauche ich @[date?] Handschuhe
-    Schneit es @[date?]
-    Wird es @[date?] sehr kalt
-    Scheint @[date?] die Sonne
+%[weather]('training': '20000')
+    Wie wird das Wetter in @[city?] @[date?]
+    Wie ist das Wetter @[date?] in @[city?]
+    Wetter am @[date?] in @[city?]
+    Wetter in @[city?] am @[date?]
+    Scheint am @[date?] in @[city?] die Sonne
+    Scheint in @[city?] am @[date?] die Sonne
+    Ist es @[date?] @[city?] ~[weather-property]
+    Ist es @[city?] @[date?] ~[weather-property]
+    Wird es @[date?] @[city?] ~[weather-property]
+    Wird es @[city?] @[date?] ~[weather-property]
+    Kommt @[date?] @[city?] ~[weather-results]
+    Kommt @[city?] @[date?] ~[weather-results]
+    Gibt es @[date?] @[city?] ~[weather-results]
+    Gibt es @[city?] @[date?] ~[weather-results]
+    Brauche ich @[date?] @[city?] ~[weather-utils]
+    Brauche ich @[city?] @[date?] ~[weather-utils]
+    Schneit es @[date?] @[city?]
+    Schneit es @[city?] @[date?]
+
+~[weather-property]
+    bewölkt
+    drückend
+    glatt
+    heiß
+    kalt
+    matschig
+    regnen
+    schneien
+    sonnig
+    schön
+    stürmisch
+    warm
+    windig
+
+~[weather-utils]
+    Mantel
+    Regenschirm
+    Handschuhe
+    T-Shirt
+    Mütze
+    Kurze Hose
+
+~[weather-results]
+    Nebel
+    Hitze
+    Pollen
+    Pollenflug
+    Smog
+    Hagel
+    Schnee
+    ~[rain]
+
+~[rain]
+    Regen
+    Niederschlag
+    Starkregen
+    Orkan
+    Nieselregen

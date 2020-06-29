@@ -16,7 +16,8 @@ pipeline:
     - name: "EmbeddingIntentClassifier"
     - name: "DucklingHTTPExtractor"
       url: "http://duckling:8000"
-      dimensions: ["time"]
+      # see https://github.com/RasaHQ/duckling#supported-dimensions of a list of supported dimensions
+      dimensions: ["Time", "Email", "Numeral", "PhoneNumber", "Distance", "Duration"]
       locale: "de_DE"
       timezone: "Europe/Berlin"
       timeout : 3

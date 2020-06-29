@@ -1,0 +1,28 @@
+# top twenty cities
+@[city]
+    ~[capitol]
+    Hamburg
+    München
+    Köln
+    Frankfurt am Main
+    Stuttgart
+    Düsseldorf
+    Leipzig
+    Dortmund
+    Essen
+    Bremen
+    Dresden
+    Hannover
+    Nürnberg
+    Duisburg
+    Bochum
+    Wuppertal
+    Bielefeld
+    Bonn
+    Münster
+
+# aliases for `Berlin`
+~[capitol]
+    Hauptstadt
+    Berlin
+    Spree-Athen
