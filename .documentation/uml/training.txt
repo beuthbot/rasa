@@ -5,13 +5,13 @@ folder training-input as TI {
 artifact FILE.chatito
 }
 
-card "/training/chatito docker-compose up" as C1
+card "docker-compose -f docker-compose.generate-data.yml up" as C1
 
 folder training-data as TD {
 artifact FILE.json
 }
 
-card "/training docker-compose up" as C2
+card "docker-compose -f docker-compose.train-model.yml up" as C2
 
 folder models as M {
 artifact "nlu-YYYYMMDD-HHMMSS.tar.gz"

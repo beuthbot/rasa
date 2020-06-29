@@ -19,5 +19,6 @@ function handle_file {
 handle_file mensa
 handle_file weather
 handle_file database
+handle_file opening-hours
 
 rm -rf "/app/output"

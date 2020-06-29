@@ -1,0 +1,12 @@
+import ./common-entities/beuth-location.chatito
+
+%[weather]
+    Wann schließt die Bibliothek nächste Woche?
+    Wann öffnet der Lernraum während der Semesterferien?
+    Wann öffnet die Mensa?
+    Wann sind die Sprechzeiten der Professoren?
+    Wann öffnet Asta?
+    Gibt es Schließzeiten in der Bibliothek?
+    Bleibt die Beuth Hochschule morgen geschlossen?
+    Hat die Beuth übermorgen geöffnet?
+    Wie steht es nächste Woche um die Öffnungszeiten des Lernraums?

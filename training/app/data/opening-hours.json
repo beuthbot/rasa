@@ -1,0 +1,53 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wann schlie\u00dft die Bibliothek n\u00e4chste Woche?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wann \u00f6ffnet der Lernraum w\u00e4hrend der Semesterferien?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wann \u00f6ffnet die Mensa?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wann sind die Sprechzeiten der Professoren?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wann \u00f6ffnet Asta?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Gibt es Schlie\u00dfzeiten in der Bibliothek?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Bleibt die Beuth Hochschule morgen geschlossen?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Hat die Beuth \u00fcbermorgen ge\u00f6ffnet?"
+            },
+            {
+                "entities": [],
+                "intent": "weather",
+                "text": "Wie steht es n\u00e4chste Woche um die \u00d6ffnungszeiten des Lernraums?"
+            }
+        ],
+        "entity_synonyms": [],
+        "regex_features": []
+    }
+}
