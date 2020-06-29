@@ -21,6 +21,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heut an der Beuth regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heutige an der Beuth regnen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -93,6 +117,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es n\u00e4chste Woche an der Beuth regnen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -113,6 +149,30 @@
                 ],
                 "intent": "weather",
                 "text": "wird es bald an der Beuth regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend der Semesterferien an der Beuth regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend des Semesters an der Beuth regnen"
             },
             {
                 "entities": [
@@ -1766,6 +1826,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heut windig"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heutige windig"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -1838,6 +1922,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es n\u00e4chste Woche windig"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -1858,6 +1954,30 @@
                 ],
                 "intent": "weather",
                 "text": "wird es bald windig"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend der Semesterferien windig"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend des Semesters windig"
             },
             {
                 "entities": [
@@ -3521,6 +3641,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heut schneien"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heutige schneien"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -3593,6 +3737,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es n\u00e4chste Woche schneien"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -3613,6 +3769,30 @@
                 ],
                 "intent": "weather",
                 "text": "wird es bald schneien"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend der Semesterferien schneien"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend des Semesters schneien"
             },
             {
                 "entities": [
@@ -5266,6 +5446,30 @@
             {
                 "entities": [
                     {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es heut zu einem Orkan"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es heutige zu einem Orkan"
+            },
+            {
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "date",
                         "start": 9,
@@ -5338,6 +5542,18 @@
             {
                 "entities": [
                     {
+                        "end": 22,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es n\u00e4chste Woche zu einem Orkan"
+            },
+            {
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "date",
                         "start": 9,
@@ -5358,6 +5574,30 @@
                 ],
                 "intent": "weather",
                 "text": "kommt es bald zu einem Orkan"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es w\u00e4hrend der Semesterferien zu einem Orkan"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es w\u00e4hrend des Semesters zu einem Orkan"
             },
             {
                 "entities": [
@@ -7011,6 +7251,30 @@
             {
                 "entities": [
                     {
+                        "end": 9,
+                        "entity": "date",
+                        "start": 5,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird heut Niederschlag erwartet"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 5,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird heutige Niederschlag erwartet"
+            },
+            {
+                "entities": [
+                    {
                         "end": 11,
                         "entity": "date",
                         "start": 5,
@@ -7083,6 +7347,18 @@
             {
                 "entities": [
                     {
+                        "end": 18,
+                        "entity": "date",
+                        "start": 5,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird n\u00e4chste Woche Niederschlag erwartet"
+            },
+            {
+                "entities": [
+                    {
                         "end": 20,
                         "entity": "date",
                         "start": 5,
@@ -7103,6 +7379,30 @@
                 ],
                 "intent": "weather",
                 "text": "wird bald Niederschlag erwartet"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "date",
+                        "start": 5,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird w\u00e4hrend der Semesterferien Niederschlag erwartet"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "date",
+                        "start": 5,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird w\u00e4hrend des Semesters Niederschlag erwartet"
             },
             {
                 "entities": [
@@ -8756,6 +9056,30 @@
             {
                 "entities": [
                     {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "f\u00e4ngt es heut an zu regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "f\u00e4ngt es heutige an zu regnen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "date",
                         "start": 9,
@@ -8828,6 +9152,18 @@
             {
                 "entities": [
                     {
+                        "end": 22,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "f\u00e4ngt es n\u00e4chste Woche an zu regnen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "date",
                         "start": 9,
@@ -8848,6 +9184,30 @@
                 ],
                 "intent": "weather",
                 "text": "f\u00e4ngt es bald an zu regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "f\u00e4ngt es w\u00e4hrend der Semesterferien an zu regnen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "f\u00e4ngt es w\u00e4hrend des Semesters an zu regnen"
             },
             {
                 "entities": [
@@ -10501,6 +10861,30 @@
             {
                 "entities": [
                     {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es heut zu einem Niederschlag"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es heutige zu einem Niederschlag"
+            },
+            {
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "date",
                         "start": 9,
@@ -10573,6 +10957,18 @@
             {
                 "entities": [
                     {
+                        "end": 22,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es n\u00e4chste Woche zu einem Niederschlag"
+            },
+            {
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "date",
                         "start": 9,
@@ -10593,6 +10989,30 @@
                 ],
                 "intent": "weather",
                 "text": "kommt es bald zu einem Niederschlag"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es w\u00e4hrend der Semesterferien zu einem Niederschlag"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt es w\u00e4hrend des Semesters zu einem Niederschlag"
             },
             {
                 "entities": [
@@ -12246,6 +12666,30 @@
             {
                 "entities": [
                     {
+                        "end": 10,
+                        "entity": "date",
+                        "start": 6,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt heut Starkregen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 6,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt heutige Starkregen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 12,
                         "entity": "date",
                         "start": 6,
@@ -12318,6 +12762,18 @@
             {
                 "entities": [
                     {
+                        "end": 19,
+                        "entity": "date",
+                        "start": 6,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt n\u00e4chste Woche Starkregen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 21,
                         "entity": "date",
                         "start": 6,
@@ -12338,6 +12794,30 @@
                 ],
                 "intent": "weather",
                 "text": "kommt bald Starkregen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 32,
+                        "entity": "date",
+                        "start": 6,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt w\u00e4hrend der Semesterferien Starkregen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "date",
+                        "start": 6,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kommt w\u00e4hrend des Semesters Starkregen"
             },
             {
                 "entities": [
@@ -13991,6 +14471,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heut hei\u00df"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es heutige hei\u00df"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -14063,6 +14567,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es n\u00e4chste Woche hei\u00df"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -14083,6 +14599,30 @@
                 ],
                 "intent": "weather",
                 "text": "wird es bald hei\u00df"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend der Semesterferien hei\u00df"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "wird es w\u00e4hrend des Semesters hei\u00df"
             },
             {
                 "entities": [
@@ -15736,6 +16276,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es heut Nebel"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es heutige Nebel"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -15808,6 +16372,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es n\u00e4chste Woche Nebel"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -15828,6 +16404,30 @@
                 ],
                 "intent": "weather",
                 "text": "gibt es bald Nebel"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es w\u00e4hrend der Semesterferien Nebel"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es w\u00e4hrend des Semesters Nebel"
             },
             {
                 "entities": [
@@ -17481,6 +18081,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es heut Pollen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es heutige Pollen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -17553,6 +18177,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es n\u00e4chste Woche Pollen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -17573,6 +18209,30 @@
                 ],
                 "intent": "weather",
                 "text": "gibt es bald Pollen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es w\u00e4hrend der Semesterferien Pollen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "gibt es w\u00e4hrend des Semesters Pollen"
             },
             {
                 "entities": [
@@ -19226,6 +19886,30 @@
             {
                 "entities": [
                     {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich heut Fahrrad fahren"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich heutige Fahrrad fahren"
+            },
+            {
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "date",
                         "start": 9,
@@ -19298,6 +19982,18 @@
             {
                 "entities": [
                     {
+                        "end": 22,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich n\u00e4chste Woche Fahrrad fahren"
+            },
+            {
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "date",
                         "start": 9,
@@ -19318,6 +20014,30 @@
                 ],
                 "intent": "weather",
                 "text": "kann ich bald Fahrrad fahren"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich w\u00e4hrend der Semesterferien Fahrrad fahren"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich w\u00e4hrend des Semesters Fahrrad fahren"
             },
             {
                 "entities": [
@@ -20971,6 +21691,30 @@
             {
                 "entities": [
                     {
+                        "end": 11,
+                        "entity": "date",
+                        "start": 7,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "ist es heut glatt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "date",
+                        "start": 7,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "ist es heutige glatt"
+            },
+            {
+                "entities": [
+                    {
                         "end": 13,
                         "entity": "date",
                         "start": 7,
@@ -21043,6 +21787,18 @@
             {
                 "entities": [
                     {
+                        "end": 20,
+                        "entity": "date",
+                        "start": 7,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "ist es n\u00e4chste Woche glatt"
+            },
+            {
+                "entities": [
+                    {
                         "end": 22,
                         "entity": "date",
                         "start": 7,
@@ -21063,6 +21819,30 @@
                 ],
                 "intent": "weather",
                 "text": "ist es bald glatt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "date",
+                        "start": 7,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "ist es w\u00e4hrend der Semesterferien glatt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "date",
+                        "start": 7,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "ist es w\u00e4hrend des Semesters glatt"
             },
             {
                 "entities": [
@@ -22721,6 +23501,30 @@
             {
                 "entities": [
                     {
+                        "end": 14,
+                        "entity": "date",
+                        "start": 10,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "haben wir heut H\u00f6chsttemperaturen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "date",
+                        "start": 10,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "haben wir heutige H\u00f6chsttemperaturen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 16,
                         "entity": "date",
                         "start": 10,
@@ -22793,6 +23597,18 @@
             {
                 "entities": [
                     {
+                        "end": 23,
+                        "entity": "date",
+                        "start": 10,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "haben wir n\u00e4chste Woche H\u00f6chsttemperaturen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 25,
                         "entity": "date",
                         "start": 10,
@@ -22813,6 +23629,30 @@
                 ],
                 "intent": "weather",
                 "text": "haben wir bald H\u00f6chsttemperaturen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 36,
+                        "entity": "date",
+                        "start": 10,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "haben wir w\u00e4hrend der Semesterferien H\u00f6chsttemperaturen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "date",
+                        "start": 10,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "haben wir w\u00e4hrend des Semesters H\u00f6chsttemperaturen"
             },
             {
                 "entities": [
@@ -24471,6 +25311,30 @@
             {
                 "entities": [
                     {
+                        "end": 13,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich heut mit dem T-Shirt zur Uni gehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich heutige mit dem T-Shirt zur Uni gehen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "date",
                         "start": 9,
@@ -24543,6 +25407,18 @@
             {
                 "entities": [
                     {
+                        "end": 22,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich n\u00e4chste Woche mit dem T-Shirt zur Uni gehen"
+            },
+            {
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "date",
                         "start": 9,
@@ -24563,6 +25439,30 @@
                 ],
                 "intent": "weather",
                 "text": "kann ich bald mit dem T-Shirt zur Uni gehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich w\u00e4hrend der Semesterferien mit dem T-Shirt zur Uni gehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 30,
+                        "entity": "date",
+                        "start": 9,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "kann ich w\u00e4hrend des Semesters mit dem T-Shirt zur Uni gehen"
             },
             {
                 "entities": [
@@ -26216,6 +27116,30 @@
             {
                 "entities": [
                     {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich heut einen Regenschirm"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich heutige einen Regenschirm"
+            },
+            {
+                "entities": [
+                    {
                         "end": 18,
                         "entity": "date",
                         "start": 12,
@@ -26288,6 +27212,18 @@
             {
                 "entities": [
                     {
+                        "end": 25,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich n\u00e4chste Woche einen Regenschirm"
+            },
+            {
+                "entities": [
+                    {
                         "end": 27,
                         "entity": "date",
                         "start": 12,
@@ -26308,6 +27244,30 @@
                 ],
                 "intent": "weather",
                 "text": "Brauche ich bald einen Regenschirm"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 38,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich w\u00e4hrend der Semesterferien einen Regenschirm"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich w\u00e4hrend des Semesters einen Regenschirm"
             },
             {
                 "entities": [
@@ -27961,6 +28921,30 @@
             {
                 "entities": [
                     {
+                        "end": 16,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich heut Handschuhe"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich heutige Handschuhe"
+            },
+            {
+                "entities": [
+                    {
                         "end": 18,
                         "entity": "date",
                         "start": 12,
@@ -28033,6 +29017,18 @@
             {
                 "entities": [
                     {
+                        "end": 25,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich n\u00e4chste Woche Handschuhe"
+            },
+            {
+                "entities": [
+                    {
                         "end": 27,
                         "entity": "date",
                         "start": 12,
@@ -28053,6 +29049,30 @@
                 ],
                 "intent": "weather",
                 "text": "Brauche ich bald Handschuhe"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 38,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich w\u00e4hrend der Semesterferien Handschuhe"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "date",
+                        "start": 12,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Brauche ich w\u00e4hrend des Semesters Handschuhe"
             },
             {
                 "entities": [
@@ -29706,6 +30726,30 @@
             {
                 "entities": [
                     {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 11,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Schneit es heut"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "date",
+                        "start": 11,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Schneit es heutige"
+            },
+            {
+                "entities": [
+                    {
                         "end": 17,
                         "entity": "date",
                         "start": 11,
@@ -29778,6 +30822,18 @@
             {
                 "entities": [
                     {
+                        "end": 24,
+                        "entity": "date",
+                        "start": 11,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Schneit es n\u00e4chste Woche"
+            },
+            {
+                "entities": [
+                    {
                         "end": 26,
                         "entity": "date",
                         "start": 11,
@@ -29798,6 +30854,30 @@
                 ],
                 "intent": "weather",
                 "text": "Schneit es bald"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 37,
+                        "entity": "date",
+                        "start": 11,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Schneit es w\u00e4hrend der Semesterferien"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 32,
+                        "entity": "date",
+                        "start": 11,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Schneit es w\u00e4hrend des Semesters"
             },
             {
                 "entities": [
@@ -31451,6 +32531,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Wird es heut sehr kalt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Wird es heutige sehr kalt"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -31523,6 +32627,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Wird es n\u00e4chste Woche sehr kalt"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -31543,6 +32659,30 @@
                 ],
                 "intent": "weather",
                 "text": "Wird es bald sehr kalt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Wird es w\u00e4hrend der Semesterferien sehr kalt"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Wird es w\u00e4hrend des Semesters sehr kalt"
             },
             {
                 "entities": [
@@ -33196,6 +34336,30 @@
             {
                 "entities": [
                     {
+                        "end": 12,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heut"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Scheint heut die Sonne"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "heutige"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Scheint heutige die Sonne"
+            },
+            {
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "date",
                         "start": 8,
@@ -33268,6 +34432,18 @@
             {
                 "entities": [
                     {
+                        "end": 21,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "n\u00e4chste Woche"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Scheint n\u00e4chste Woche die Sonne"
+            },
+            {
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "date",
                         "start": 8,
@@ -33288,6 +34464,30 @@
                 ],
                 "intent": "weather",
                 "text": "Scheint bald die Sonne"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend der Semesterferien"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Scheint w\u00e4hrend der Semesterferien die Sonne"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "date",
+                        "start": 8,
+                        "value": "w\u00e4hrend des Semesters"
+                    }
+                ],
+                "intent": "weather",
+                "text": "Scheint w\u00e4hrend des Semesters die Sonne"
             },
             {
                 "entities": [

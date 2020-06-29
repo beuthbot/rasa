@@ -1,12 +1,34 @@
+import ./common-entities/date.chatito
 import ./common-entities/beuth-location.chatito
 
-%[weather]
-    Wann schließt die Bibliothek nächste Woche?
-    Wann öffnet der Lernraum während der Semesterferien?
-    Wann öffnet die Mensa?
+%[opening-hours]('training': '10000')
+    Wann ~[opening] @[beuth-location?] @[date?]
+    Wann ~[opening] @[beuth-location?]
+    Wann ~[opening] @[date?] @[beuth-location?]
+    Wann ~[closing] @[beuth-location?] @[date?]
+    Wann ~[closing] @[beuth-location?]
+    Wann ~[closing] @[date?] @[beuth-location?]
     Wann sind die Sprechzeiten der Professoren?
-    Wann öffnet Asta?
-    Gibt es Schließzeiten in der Bibliothek?
-    Bleibt die Beuth Hochschule morgen geschlossen?
-    Hat die Beuth übermorgen geöffnet?
-    Wie steht es nächste Woche um die Öffnungszeiten des Lernraums?
+    Bleibt die @[beuth-location?] @[date?] ~[closing]?
+    Hat die @[beuth-location?] @[date?] ~[closing]?
+    Bleibt die @[beuth-location?] @[date?] ~[opening]?
+    Hat die @[beuth-location?] @[date?] ~[opening]?
+    Wie steht es @[date?] um die ~[opening-hours-keyword] des @[beuth-location?]?
+
+~[opening-hours-keyword]
+    Öffnungszeiten
+    Schließzeiten
+    Sprechzeiten
+    Zeiten
+
+~[opening]
+    öffnet
+    offen
+    auf
+    geöffnet
+
+~[closing]
+    schließen
+    schließt
+    zu
+    geschlossen

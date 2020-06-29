@@ -1,31 +1,39 @@
-%[mensa]
+import ./common-entities/date.chatito
+import ./common-entities/alergens.chatito
+
+%[mensa]('training': '10000')
+    Gibt es @[date?] @[pictogram] in der Mensa
+    Wird nächste Woche @[pictogram] gekocht
+    wird @[pictogram] @[date?] angeboten
+    gibt es @[date?] @[pictogram] in der Mensa
+    Zeig mir alle @[pictogram] Gerichte an
     Zeige mir alle @[pictogram] Gerichte an
+    Hat das @[dish] @[alergens]
+    Hat das @[dish] @[additives]
+    wie steht es @[date?] mit @[dish] in der Mensa
+    gibt es @[date?] @[additives]
+    werden @[dish] @[date?] angeboten
+    gibt es @[date?] für @[dish] in der Mensa
+    hat das Essen Allergene
+    was gibt es nächste Woche zu essen
+    gibt es @[date?] deutsches @[dish]
+    gibt es @[date?] indische Küche?
+    was ist das beste @[dish] für @[date?]
+    was gut schmeckt
+    gibt es @[date?] @[pictogram] @[dish]
+    sättigt das @[dish]
+    gibt es im @[dish] @[alergens]
+    werden @[alergens] @[date?] verkauft
+    was für ein @[dessert] gibt es @[date?]
+    was kostet ein @[dessert]
+    besteht das @[date?] Angebot aus Salzkartoffeln
+    welches @[dish] wird @[date?] empfohlen
+    welche Snacks gibt es @[date?]
+    wird nächste Woche Nachtisch angeboten
+    Was kann ich @[date?] futtern
+    Sind in Gerichte @[alergens] enthalten
+    Was für eine @[dish] gibt es @[date?]
     Welche Gerichte werden empfohlen
-    Was für eine @[dish] gibt es morgen
-    Gibt es heute vegan in der Mensa?
-    Hat das Essen Weizen?
-    Hat das Essen Schweinefleisch?
-    gibt es morgen für Beilagen in der Mensa? hat das Essen Allergene?
-    was gibt es nächste Woche zu essen? werden Beilagen heute angeboten? gibt es heute deutsches Essen?
-    gibt es heute indische Küche?
-    wird nächste Woche vegetarisch gekocht? was ist das beste Essen für heute?
-    was gut schmeckt?
-    gibt es heute schlechtes Essen?
-    sättigt das Essen?
-    gibt es im Essen Mandeln?
-    werden Milchprodukte morgen verkauft?
-    was für ein Nachtisch gibt es morgen?
-    was kostet ein Naturquark?
-    besteht das heutige Angebot aus Salzkartoffeln?
-    wie steht es übermorgen mit Aktionen in der Mensa? welches Essen wird heute empfohlen?
-    welche Snacks gibt es heute?
-    wird vegan heute angeboten?
-    wird nächste Woche Nachtisch angeboten?
-    zeige mir alle roten und grünen Gerichte an
-    was gibt es morgen rotes in der Mensa?
-    gibt es morgen Schwein?
-    Was kann ich heute futtern?
-    Sind in Gerichte Allergene enthalten?
 
 @[pictogram]
     grün
@@ -69,58 +77,6 @@
     dressing
     aktion
     aktionen
-
-@[alergens]
-    allergene
-    allergen
-    glutenhaltig
-    getreide
-    weizen
-    roggen
-    gerste
-    hafer
-    dinkel
-    kamut
-    krebstiere
-    krebstier
-    krebs
-    krebse
-    eier
-    ei
-    fisch
-    fische
-    erdnüsse
-    erdnuss
-    schalenfrüchte
-    schalenfrucht
-    mandeln
-    mandel
-    haselnuss
-    haselnüsse
-    walnuss
-    walnüsse
-    kaschunuss
-    kaschunüsse
-    pacannuss
-    pacannüsse
-    paranuss
-    paranüsse
-    pistazie
-    pistazien
-    macadamia
-    sellerie
-    soja
-    senf
-    milch
-    milchprodukte
-    laktose
-    sesam
-    schwefeldioxid
-    sulfide
-    lupine
-    weichtiere
-    nitritpökelsalz
-    hefe
 
 @[additives]
     zusatzstoff

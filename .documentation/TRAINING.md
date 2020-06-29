@@ -158,3 +158,17 @@ Facinig the problem there is no way to store the entered values in [Tracy](#Trac
 ![Icon](ChatitoScreenshot.jpg "Icon")
 
 We create one Chatito file per service / intent. The files have a `.chatito` extension and are placed in the `/training/data/input` directory. The above [Step-by-Step Guide](#Step-by-Step-Guide) shows you how to create the training dataset from these files.
+
+## Makefile
+
+Note the `Makefile` which defines targets for the training steps for convenience. Following lists the commands you can use with `make`.
+
+```
+commands:
+
+  train           Shorthand for 'train-model' and 'generate-data' and 'update-model'
+  train-model     Starts the Rasa training container to create a model file
+  generate-data   Generated JSON file from the .chatito file in the '/app/input' directory
+  update-model    Copies the newest model file in the '/app/models' directory
+```
+
