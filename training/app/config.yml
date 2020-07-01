@@ -5,10 +5,15 @@ language: de
 pipeline:
     - name: "WhitespaceTokenizer"
       case_sensitive: false
+    - name: "SpacyNLP"
+    - name: "SpacyTokenizer"
+    - name: "SpacyFeaturizer"
     - name: "RegexFeaturizer"
     - name: "CRFEntityExtractor"
     - name: "EntitySynonymMapper"
-    - name: "CountVectorsFeaturizer"
+    - name: "CRFEntityExtractor"
+    - name: "EntitySynonymMapper"
+    - name: "SklearnIntentClassifier"
     - name: "CountVectorsFeaturizer"
       analyzer: "char_wb"
       min_ngram: 1

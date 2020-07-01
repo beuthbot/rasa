@@ -1,7 +1,7 @@
 import ./common-entities/date.chatito
 import ./common-entities/beuth-location.chatito
 
-%[opening-hours]('training': '20000')
+%[opening-hours]('training': '10000')
     Wann ~[opening] @[beuth-location?] @[date?]
     Wann ~[opening] @[beuth-location?]
     Wann ~[opening] @[date?] @[beuth-location?]

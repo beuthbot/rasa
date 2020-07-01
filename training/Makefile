@@ -12,11 +12,11 @@ install: $(eval .SILENT:)
 
 generate-data:
 	# starts the training data generation container
-	docker-compose -f docker-compose.generate-data.yml up
+	docker-compose -f docker-compose.generate-data.yml up --build
 
 train-model:
 	# starts the Rasa trainings container
-	docker-compose -f docker-compose.train-model.yml up
+	docker-compose -f docker-compose.train-model.yml up --build
 
 update-model:
 	# remove any existing model file

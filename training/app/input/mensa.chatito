@@ -1,14 +1,14 @@
 import ./common-entities/date.chatito
-import ./common-entities/alergens.chatito
+import ./common-entities/allergens.chatito
 
-%[mensa]('training': '20000')
+%[mensa]('training': '10000')
     Gibt es @[date?] @[pictogram] in der Mensa
     Wird nächste Woche @[pictogram] gekocht
     wird @[pictogram] @[date?] angeboten
     gibt es @[date?] @[pictogram] in der Mensa
     Zeig mir alle @[pictogram] Gerichte an
     Zeige mir alle @[pictogram] Gerichte an
-    Hat das @[dish] @[alergen]
+    Hat das @[dish] @[allergen]
     Hat das @[dish] @[additives]
     wie steht es @[date?] mit @[dish] in der Mensa
     gibt es @[date?] @[additives]
@@ -22,8 +22,8 @@ import ./common-entities/alergens.chatito
     was gut schmeckt
     gibt es @[date?] @[pictogram] @[dish]
     sättigt das @[dish]
-    gibt es im @[dish] @[alergen]
-    werden @[alergen] @[date?] verkauft
+    gibt es im @[dish] @[allergen]
+    werden @[allergen] @[date?] verkauft
     was für ein @[dessert] gibt es @[date?]
     was kostet ein @[dessert]
     besteht das @[date?] Angebot aus Salzkartoffeln
@@ -31,7 +31,7 @@ import ./common-entities/alergens.chatito
     welche Snacks gibt es @[date?]
     wird nächste Woche Nachtisch angeboten
     Was kann ich @[date?] futtern
-    Sind in Gerichte @[alergen] enthalten
+    Sind in Gerichte @[allergen] enthalten
     Was für eine @[dish] gibt es @[date?]
     Welche Gerichte werden empfohlen
 

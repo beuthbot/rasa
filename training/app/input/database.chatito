@@ -1,12 +1,83 @@
+import ./common-entities/cities.chatito
+import ./common-entities/allergens.chatito
+
+%[database-get]
+    ~[get] @[all-details]
+    @[all-details] ~[get]
 
 %[database-set]
-    Merk dir, dass ich @[meal-preference] bin
-    Speichere, dass ich @[meal-preference] bin
+    ~[set] , dass @[detail-meal-preference]
+    ~[set] , dass @[detail-home] @[city]
+    ~[set] , dass @[city] @[detail-home]
+    ~[set] , dass @[detail-allergic] @[allergen]
+    ~[set] , dass @[allergen] @[detail-allergic]
 
 %[database-remove]
-    Vergiss, dass ich @[meal-preference] bin
-    Lösche, dass ich @[meal-preference] bin
+    ~[remove] @[all-details]
+    @[all-details] ~[remove]
+    ~[remove] @[detail-home]
+    ~[remove] @[detail-meal-preference]
+    ~[remove] @[detail-allergic] @[allergen]
+    ~[remove] @[allergen] @[detail-allergic]
 
-@[meal-preference]
+# ===---------------------------------------------------------------------------------===
+# Details
+# ===---------------------------------------------------------------------------------===
+
+@[detail-birthday]
+    Geburtstag
+    Geboren
+    Purzeltag
+    Birthday
+
+@[detail-home]
+    Heimat
+    Heimatstadt
+    Zuhause
+    Wohnort
+    meine Stadt
+    mein Haus
+    mein Zuhause
+    Wohnsitz
+    Standort
+    Wohnung
+
+@[detail-meal-preference]
     vegetarisch
     vegan
+
+@[detail-allergic]
+    allergisch
+    allergische Krankheiten
+    ein allergischer Schock
+    allergisch reagieren
+    ich bin allergisch gegen
+
+@[all-details]
+    alles
+    alle
+    alle meine Daten
+    meine Daten
+    gespeicherte Informationen
+
+# ===---------------------------------------------------------------------------------===
+# Synonyms
+# ===---------------------------------------------------------------------------------===
+
+~[get]
+    Weist du
+    Wusstest du
+    Gib mir
+    Ich möchte wissen
+
+~[set]
+    Merke dir
+    Merke
+    Speichere
+    Lerne
+    Errinere dich daran
+
+~[remove]
+    Vergiss
+    Lösche
+    Entferne
