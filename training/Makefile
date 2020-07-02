@@ -4,7 +4,7 @@ new_file := $$(ls -Art "$(model_dir_training)" | tail -n 1)
 
 install: $(eval .SILENT:)
 	echo "commands:" && echo ""
-	echo "  train               Shorthand for 'train-model' and 'generate-data' and 'update-model'"
+	echo "  train               Shorthand for 'generate-data' && 'train-model' && 'update-model'"
 	echo "  train-model         Starts the Rasa training container to create a model file"
 	echo "  generate-data       Generated JSON file from the .chatito file in the '/app/input' directory"
 	echo "  update-model        Copies the newest model file in the '/app/models' directory"

@@ -7,6 +7,8 @@ services:
       - 5005:5005
     volumes:
       - ../app:/app
+    links:
+      - duckling
     command:
       - run
       - --enable-api

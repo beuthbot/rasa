@@ -1,38 +1,38 @@
-import ./common-entities/date.chatito
+import ./common-entities/time-specification.chatito
 import ./common-entities/allergens.chatito
 
 %[mensa]('training': '10000')
-    Gibt es @[date?] @[pictogram] in der Mensa
+    Gibt es @[time-specification?] @[pictogram] in der Mensa
     Wird nächste Woche @[pictogram] gekocht
-    wird @[pictogram] @[date?] angeboten
-    gibt es @[date?] @[pictogram] in der Mensa
+    wird @[pictogram] @[time-specification?] angeboten
+    gibt es @[time-specification?] @[pictogram] in der Mensa
     Zeig mir alle @[pictogram] Gerichte an
     Zeige mir alle @[pictogram] Gerichte an
     Hat das @[dish] @[allergen]
     Hat das @[dish] @[additives]
-    wie steht es @[date?] mit @[dish] in der Mensa
-    gibt es @[date?] @[additives]
-    werden @[dish] @[date?] angeboten
-    gibt es @[date?] für @[dish] in der Mensa
+    wie steht es @[time-specification?] mit @[dish] in der Mensa
+    gibt es @[time-specification?] @[additives]
+    werden @[dish] @[time-specification?] angeboten
+    gibt es @[time-specification?] für @[dish] in der Mensa
     hat das Essen Allergene
     was gibt es nächste Woche zu essen
-    gibt es @[date?] deutsches @[dish]
-    gibt es @[date?] indische Küche?
-    was ist das beste @[dish] für @[date?]
+    gibt es @[time-specification?] deutsches @[dish]
+    gibt es @[time-specification?] indische Küche?
+    was ist das beste @[dish] für @[time-specification?]
     was gut schmeckt
-    gibt es @[date?] @[pictogram] @[dish]
+    gibt es @[time-specification?] @[pictogram] @[dish]
     sättigt das @[dish]
     gibt es im @[dish] @[allergen]
-    werden @[allergen] @[date?] verkauft
-    was für ein @[dessert] gibt es @[date?]
+    werden @[allergen] @[time-specification?] verkauft
+    was für ein @[dessert] gibt es @[time-specification?]
     was kostet ein @[dessert]
-    besteht das @[date?] Angebot aus Salzkartoffeln
-    welches @[dish] wird @[date?] empfohlen
-    welche Snacks gibt es @[date?]
+    besteht das @[time-specification?] Angebot aus Salzkartoffeln
+    welches @[dish] wird @[time-specification?] empfohlen
+    welche Snacks gibt es @[time-specification?]
     wird nächste Woche Nachtisch angeboten
-    Was kann ich @[date?] futtern
+    Was kann ich @[time-specification?] futtern
     Sind in Gerichte @[allergen] enthalten
-    Was für eine @[dish] gibt es @[date?]
+    Was für eine @[dish] gibt es @[time-specification?]
     Welche Gerichte werden empfohlen
 
 @[pictogram]

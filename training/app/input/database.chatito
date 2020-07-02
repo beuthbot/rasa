@@ -1,18 +1,24 @@
 import ./common-entities/cities.chatito
 import ./common-entities/allergens.chatito
+import ./common-entities/meal-preference.chatito
 
-%[database-get]
+%[database-get]('training': '10000')
     ~[get] @[all-details]
     @[all-details] ~[get]
+    ~[get] mein @[detail-birthday]
+    ~[get] mein @[detail-meal-preference]
+    ~[get] mein @[detail-home]
+    ~[get] mein @[detail-allergic]
 
-%[database-set]
-    ~[set] , dass @[detail-meal-preference]
-    ~[set] , dass @[detail-home] @[city]
+%[database-set]('training': '10000')
+    ~[set] , dass ich @[meal-preference] @[detail-meal-preference]
+    ~[set] , dass @[detail-meal-preference] @[meal-preference]
+    ~[set] , dass ich @[detail-home] @[city]
     ~[set] , dass @[city] @[detail-home]
     ~[set] , dass @[detail-allergic] @[allergen]
     ~[set] , dass @[allergen] @[detail-allergic]
 
-%[database-remove]
+%[database-remove]('training': '10000')
     ~[remove] @[all-details]
     @[all-details] ~[remove]
     ~[remove] @[detail-home]
@@ -29,6 +35,7 @@ import ./common-entities/allergens.chatito
     Geboren
     Purzeltag
     Birthday
+    Wiegenfest
 
 @[detail-home]
     Heimat
@@ -41,10 +48,19 @@ import ./common-entities/allergens.chatito
     Wohnsitz
     Standort
     Wohnung
+    wohne
+    lebe
+    hausen
 
 @[detail-meal-preference]
-    vegetarisch
-    vegan
+    ernähre
+    ernähren
+    Ernährung
+    essen
+    achten
+    achten
+    fresse
+    fressen
 
 @[detail-allergic]
     allergisch
@@ -69,13 +85,21 @@ import ./common-entities/allergens.chatito
     Wusstest du
     Gib mir
     Ich möchte wissen
+    Erzähl mir
+    Erzähle mir
+    Lade
 
 ~[set]
     Merke dir
     Merke
     Speichere
+    Speichere ab
+    Speicher
+    Speicher ab
     Lerne
     Errinere dich daran
+    Behalte
+    Nehm zu Kenntnis
 
 ~[remove]
     Vergiss

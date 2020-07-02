@@ -1,19 +1,19 @@
-import ./common-entities/date.chatito
+import ./common-entities/time-specification.chatito
 import ./common-entities/beuth-location.chatito
 
 %[opening-hours]('training': '10000')
-    Wann ~[opening] @[beuth-location?] @[date?]
+    Wann ~[opening] @[beuth-location?] @[time-specification?]
     Wann ~[opening] @[beuth-location?]
-    Wann ~[opening] @[date?] @[beuth-location?]
-    Wann ~[closing] @[beuth-location?] @[date?]
+    Wann ~[opening] @[time-specification?] @[beuth-location?]
+    Wann ~[closing] @[beuth-location?] @[time-specification?]
     Wann ~[closing] @[beuth-location?]
-    Wann ~[closing] @[date?] @[beuth-location?]
+    Wann ~[closing] @[time-specification?] @[beuth-location?]
     Wann sind die Sprechzeiten der Professoren?
-    Bleibt die @[beuth-location?] @[date?] ~[closing]?
-    Hat die @[beuth-location?] @[date?] ~[closing]?
-    Bleibt die @[beuth-location?] @[date?] ~[opening]?
-    Hat die @[beuth-location?] @[date?] ~[opening]?
-    Wie steht es @[date?] um die ~[opening-hours-keyword] des @[beuth-location?]?
+    Bleibt die @[beuth-location?] @[time-specification?] ~[closing]?
+    Hat die @[beuth-location?] @[time-specification?] ~[closing]?
+    Bleibt die @[beuth-location?] @[time-specification?] ~[opening]?
+    Hat die @[beuth-location?] @[time-specification?] ~[opening]?
+    Wie steht es @[time-specification?] um die ~[opening-hours-keyword] des @[beuth-location?]?
 
 ~[opening-hours-keyword]
     Öffnungszeiten
