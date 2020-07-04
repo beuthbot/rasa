@@ -13,10 +13,10 @@
     bald
     während der Semesterferien
     während des Semesters
-    in ~[number] Tag
-    in ~[number] Tagen
-    vor ~[number] Tag
-    vor ~[number] Tagen
+#    in ~[number] Tag
+#    in ~[number] Tagen
+#    vor ~[number] Tag
+#    vor ~[number] Tagen
 
 ~[number]
     1
