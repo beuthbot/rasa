@@ -19,5 +19,7 @@ COPY entrypoint /
 # make entrypoint executable
 RUN chmod +x /entrypoint
 
+ENV BEAUTIFY_JSON 1
+
 # run the entrypoint executable
 ENTRYPOINT /entrypoint

@@ -72,9 +72,15 @@ import ./common-entities/meal-preference.chatito
 @[all-details]
     alles
     alle
+    alles über mich
+    über mich
     alle meine Daten
     meine Daten
     gespeicherte Informationen
+    alles, was du weisst
+    alles, was du über mich weisst
+    alles, was ich gesagt habe
+    alles, was ich je gesagt habe
 
 # ===---------------------------------------------------------------------------------===
 # Synonyms
@@ -88,6 +94,7 @@ import ./common-entities/meal-preference.chatito
     Erzähl mir
     Erzähle mir
     Lade
+    Was weißt du
 
 ~[set]
     Merke dir

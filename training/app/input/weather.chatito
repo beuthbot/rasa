@@ -1,7 +1,7 @@
 import ./common-entities/time-specification.chatito
 import ./common-entities/cities.chatito
 
-%[weather]('training': '10000')
+%[weather]('training': '5000')
     Wie wird das Wetter in @[city?] @[time-specification?]
     Wie ist das Wetter @[time-specification?] in @[city?]
     Wetter am @[time-specification?] in @[city?]
@@ -10,20 +10,20 @@ import ./common-entities/cities.chatito
     wetter
     Wie ist das Wetter
     Wie wird das Wetter
-#    Scheint am @[time-specification?] in @[city?] die Sonne
-#    Scheint in @[city?] am @[time-specification?] die Sonne
-#    Ist es @[time-specification?] @[city?] ~[weather-property]
-#    Ist es @[city?] @[time-specification?] ~[weather-property]
-#    Wird es @[time-specification?] @[city?] ~[weather-property]
-#    Wird es @[city?] @[time-specification?] ~[weather-property]
-#    Kommt @[time-specification?] @[city?] ~[weather-results]
-#    Kommt @[city?] @[time-specification?] ~[weather-results]
-#    Gibt es @[time-specification?] @[city?] ~[weather-results]
-#    Gibt es @[city?] @[time-specification?] ~[weather-results]
-#    Brauche ich @[time-specification?] @[city?] ~[weather-utils]
-#    Brauche ich @[city?] @[time-specification?] ~[weather-utils]
+    Ist es @[time-specification?] @[city?] ~[weather-property] Wetter
+    Ist es @[city?] @[time-specification?] ~[weather-property] Wetter
+    Wird es @[time-specification?] @[city?] ~[weather-property] Wetter
+    Wird es @[city?] @[time-specification?] ~[weather-property] Wetter
+    Gibt es @[time-specification?] @[city?] ~[weather-results] Wetter
+    Gibt es @[city?] @[time-specification?] ~[weather-results] Wetter
+    Brauche ich @[time-specification?] @[city?] ~[weather-utils] Wetter
+    Brauche ich @[city?] @[time-specification?] ~[weather-utils] Wetter
 #    Schneit es @[time-specification?] @[city?]
 #    Schneit es @[city?] @[time-specification?]
+#    Scheint am @[time-specification?] in @[city?] die Sonne
+#    Scheint in @[city?] am @[time-specification?] die Sonne
+#    Kommt @[time-specification?] @[city?] ~[weather-results]
+#    Kommt @[city?] @[time-specification?] ~[weather-results]
 
 ~[weather-property]
     bewölkt

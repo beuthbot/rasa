@@ -3,22 +3,26 @@ set -x
 set -u
 set -e
 
-function handle_file {
-    local A_FILE="${1}.chatito"
-    local TRAIN_FILE="${1}.json"
+output_dir="/var/output"
+data_dir="/app/data"
 
-    npx chatito ./input/${A_FILE} \
-        --format="rasa" \
-        --outputPath="/app/output" \
-        --trainingFileName="${TRAIN_FILE}" \
+for file_path in ./input/*.chatito ;
+do
+  echo "file_path: ${file_path}"
+  file_name="$(basename -- "${file_path}")"
+  file_name="${file_name%.*}"
+  train_file="${file_name}.json"
+  test_file="${file_name}_testing.json"
 
-    python -m json.tool \
-        /app/output/${TRAIN_FILE} > /app/data/${TRAIN_FILE}
-}
+  npx chatito ${file_path} \
+    --format="rasa" \
+    --outputPath="${output_dir}" \
+    --trainingFileName="${train_file}" \
+    --testingFileName="${test_file}"
 
-handle_file mensa
-handle_file weather
-handle_file database
-handle_file opening-hours
-
-rm -rf "/app/output"
+    if [[ "${BEAUTIFY_JSON}" == "1" ]] ; then
+      python -m json.tool ${output_dir}/${train_file} > ${data_dir}/${train_file}
+    else
+      cp ${output_dir}/${train_file} ${data_dir}/${train_file}
+    fi
+done

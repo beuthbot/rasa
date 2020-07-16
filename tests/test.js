@@ -7,6 +7,7 @@ const app = express()
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }))
 
+const rasa_endpoint = process.env.RASA_ENDPOINT || "http://localhost:5005/model/parse"
 const fs = require('fs');
 const readline = require('readline');
 var questions = [];
@@ -34,7 +35,7 @@ app.get('/', function (req, res) {
     if (candidate) {
 
         axios
-            .post("http://rasa:5005/model/parse", { "text": candidate })
+            .post(rasa_endpoint, { "text": candidate })
             .catch(function (error) {
                 console.log("error: " + error);
             })

@@ -1,32 +1,12 @@
 version: '3.0'
 services:
-  rasa:
-    image: rasa/rasa:1.6.0-spacy-de
-    restart: unless-stopped
-    ports:
-      - 5005:5005
-    volumes:
-      - ../app:/app
-    links:
-      - duckling
-    command:
-      - run
-      - --enable-api
-      - --cors
-      - "*"
-
-  duckling:
-    image: rasa/duckling:0.1.6.2
-    restart: unless-stopped
-
   tests:
     build: .
     container_name: rasa-tests
-    restart: unless-stopped
-    links:
-      - rasa
     ports:
       - 5010:5010
+    environment:
+      - RASA_ENDPOINT=http://host.docker.internal:5005/model/parse
 
 networks:
   default:

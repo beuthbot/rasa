@@ -2,6 +2,6 @@ version: '3.0'
 services:
   chatito:
     build: chatito
-    container_name: rasa-generate
+    container_name: rasa-chatito
     volumes:
       - ./app:/app
