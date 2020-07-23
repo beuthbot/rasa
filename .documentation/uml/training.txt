@@ -1,19 +1,21 @@
 @startuml
 package Rasa {
 
-folder training-input as TI {
-artifact FILE.chatito
+folder training/app/input as TI {
+artifact FILE1.chatito
+artifact FILE2.chatito
 }
 
 card "docker-compose -f docker-compose.generate-data.yml up" as C1
 
-folder training-data as TD {
-artifact FILE.json
+folder training/app/data as TD {
+artifact FILE1.json
+artifact FILE2.json
 }
 
 card "docker-compose -f docker-compose.train-model.yml up" as C2
 
-folder models as M {
+folder training/app/model as M {
 artifact "nlu-YYYYMMDD-HHMMSS.tar.gz"
 }
 
