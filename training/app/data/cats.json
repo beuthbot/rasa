@@ -1,0 +1,1544 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "furry",
+                        "start": 14,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeig mir eine Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 18,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich habe Lust auf Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Katze sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Cutze sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Hund sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Kuscheltier sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Tiger sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Kater sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 11,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Stubentiger sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Mieze sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Miezekatze sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "K\u00e4tzchen sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Samptpfote sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Maus sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "furry",
+                        "start": 0,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Tier sind toll"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 17,
+                        "entity": "treatment",
+                        "start": 12,
+                        "value": "Trost"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich brauche Trost"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 18,
+                        "entity": "treatment",
+                        "start": 12,
+                        "value": "Freude"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich brauche Freude"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "treatment",
+                        "start": 12,
+                        "value": "Spa\u00df"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich brauche Spa\u00df"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Katze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Katze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Cutze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Cutze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Hund"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Hund"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Kuscheltier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Kuscheltier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Tiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Tiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Kater"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Kater"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Stubentiger"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Stubentiger"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Mieze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Mieze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Miezekatze"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Miezekatze"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 17,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "K\u00e4tzchen"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von K\u00e4tzchen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Samptpfote"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Samptpfote"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Maus"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Maus"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bild"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bild von Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Bilder"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "furry",
+                        "start": 11,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Bilder von Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Foto"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "furry",
+                        "start": 9,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Foto von Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "image",
+                        "start": 0,
+                        "value": "Fotos"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "furry",
+                        "start": 10,
+                        "value": "Tier"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Fotos von Tier"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "image",
+                        "start": 9,
+                        "value": "Bild"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich will Bild sehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "image",
+                        "start": 9,
+                        "value": "Bilder"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich will Bilder sehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 13,
+                        "entity": "image",
+                        "start": 9,
+                        "value": "Foto"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich will Foto sehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "image",
+                        "start": 9,
+                        "value": "Fotos"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Ich will Fotos sehen"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "image",
+                        "start": 10,
+                        "value": "Bild"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeige mir Bild"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 16,
+                        "entity": "image",
+                        "start": 10,
+                        "value": "Bilder"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeige mir Bilder"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "image",
+                        "start": 10,
+                        "value": "Foto"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeige mir Foto"
+            },
+            {
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "image",
+                        "start": 10,
+                        "value": "Fotos"
+                    }
+                ],
+                "intent": "cats",
+                "text": "Zeige mir Fotos"
+            }
+        ],
+        "entity_synonyms": [],
+        "regex_features": []
+    }
+}
