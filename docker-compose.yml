@@ -1,13 +1,13 @@
 version: '3.0'
 services:
   rasa:
-    image: rasa/rasa:1.6.0-spacy-de
+    image: rasa/rasa:2.1.3-spacy-de
     container_name: rasa
     restart: unless-stopped
     ports:
       - 5005:5005
     volumes:
-      - ./app:/app
+      - ./app:/app/
     links:
       - duckling
     command:
@@ -16,7 +16,7 @@ services:
       - --cors
       - "*"
   duckling:
-    image: rasa/duckling:0.1.6.3
+    image: rasa/duckling:0.1.6.5
     container_name: rasa-duckling
     restart: unless-stopped
 # LD: it's not necessary that duckling expand it's port.

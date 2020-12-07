@@ -3,21 +3,22 @@
 language: de
 
 pipeline:
-  - name: "WhitespaceTokenizer"
-    case_sensitive: false
-#  - name: "SpacyNLP"
-#  - name: "SpacyTokenizer"
-#  - name: "SpacyFeaturizer"
-#  - name: "RegexFeaturizer"
-#    return_sequence: true
-  - name: "CRFEntityExtractor"
-  - name: "EntitySynonymMapper"
-  - name: "CountVectorsFeaturizer"
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
-  - name: "EmbeddingIntentClassifier"
-  - name: "DucklingHTTPExtractor"
+  - name: DIETClassifier
+    epochs: 100
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+  - name: DucklingEntityExtractor
     url: "http://duckling:8000"
     dimensions: ["time"]
     locale: "de_DE"

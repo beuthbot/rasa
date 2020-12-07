@@ -31,5 +31,8 @@ train:
 	# remove any existing model file
 	rm -rf ../app/models/nlu-*.tar.gz
 
-    # copy newly generated model file
+         # copy newly generated model file
 	cp $(model_dir_training)/$(new_file) $(model_dir)
+
+         # remove model from training dir
+	rm -f $(model_dir_training)/$(new_file)

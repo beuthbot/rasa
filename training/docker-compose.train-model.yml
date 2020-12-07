@@ -1,7 +1,7 @@
 version: '3.0'
 services:
   training:
-    image: rasa/rasa:1.6.0-spacy-de
+    image: rasa/rasa:2.1.3-spacy-de
     container_name: rasa-training
     volumes:
       - ./app:/app
