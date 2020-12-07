@@ -1,0 +1,45 @@
+%[cats]('training': '5000')
+    Zeig mir eine @[furry]
+    Ich habe Lust auf @[furry]
+    @[furry] sind toll
+    Ich brauche @[treatment]
+    @[treatment] mich
+    @[image] von @[furry]
+    Ich will @[image] sehen
+    Zeige mir @[image]
+    @[furry]
+    @[furry]@[image]
+
+@[image]
+    Bild
+    Bilder
+    Foto
+    Fotos
+
+@[furry]
+    Katze
+    Katzen
+    🐱
+    Cutze
+    Hund
+    Kuscheltier
+    Tiger
+    Kater
+    Stubentiger
+    Mieze
+    Miezekatze
+    Kätzchen
+    Samptpfote
+    Maus
+    Tier
+
+@[treatment]
+    Trost
+    Freude
+    Spaß
+    Tröste
+    Bespaße
+    Erheiter
+    Belustige
+    Erfreue
+    Unterhalte

@@ -5,6 +5,7 @@ intents:
   - database-get
   - database-set
   - database-remove
+  - cats
 
 session_config:
   session_expiration_time: 60
