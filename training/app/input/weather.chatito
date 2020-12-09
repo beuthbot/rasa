@@ -1,7 +1,7 @@
 import ./common-entities/time-specification.chatito
 import ./common-entities/cities.chatito
 
-%[weather]('training': '5000')
+%[weather]('training': '500')
     Wie wird das Wetter in @[city?] @[time-specification?]
     Wie ist das Wetter @[time-specification?] in @[city?]
     Wetter am @[time-specification?] in @[city?]

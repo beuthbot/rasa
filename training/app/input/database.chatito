@@ -2,7 +2,7 @@ import ./common-entities/cities.chatito
 import ./common-entities/allergens.chatito
 import ./common-entities/meal-preference.chatito
 
-%[database-get]('training': '10000')
+%[database-get]('training': '1000')
     ~[get] @[all-details]
     @[all-details] ~[get]
     ~[get] mein @[detail-birthday]
@@ -10,7 +10,7 @@ import ./common-entities/meal-preference.chatito
     ~[get] mein @[detail-home]
     ~[get] mein @[detail-allergic]
 
-%[database-set]('training': '10000')
+%[database-set]('training': '1000')
     ~[set] , dass ich @[meal-preference] @[detail-meal-preference]
     ~[set] , dass @[detail-meal-preference] @[meal-preference]
     ~[set] , dass ich @[detail-home] @[city]
@@ -18,7 +18,7 @@ import ./common-entities/meal-preference.chatito
     ~[set] , dass @[detail-allergic] @[allergen]
     ~[set] , dass @[allergen] @[detail-allergic]
 
-%[database-remove]('training': '10000')
+%[database-remove]('training': '1000')
     ~[remove] @[all-details]
     @[all-details] ~[remove]
     ~[remove] @[detail-home]
