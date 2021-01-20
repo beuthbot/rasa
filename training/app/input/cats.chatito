@@ -1,4 +1,4 @@
-%[cats]('training': '1000')
+%[cats]('training': '200')
     Zeig mir eine @[furry]
     Ich habe Lust auf @[furry]
     @[furry] sind toll
@@ -8,7 +8,7 @@
     Ich will @[image] sehen
     Zeige mir @[image]
     @[furry]
-    @[furry]@[image]
+    @[furry] @[image]
 
 @[image]
     Bild
@@ -19,7 +19,6 @@
 @[furry]
     Katze
     Katzen
-    🐱
     Cutze
     Hund
     Kuscheltier

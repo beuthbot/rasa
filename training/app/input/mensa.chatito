@@ -1,7 +1,7 @@
 import ./common-entities/time-specification.chatito
 import ./common-entities/allergens.chatito
 
-%[mensa]('training': '1000')
+%[mensa]('training': '200')
     Gibt es @[time-specification?] @[pictogram] in der Mensa
     Wird nächste Woche @[pictogram] gekocht
     wird @[pictogram] @[time-specification?] angeboten
