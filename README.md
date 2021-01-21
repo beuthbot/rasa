@@ -75,7 +75,7 @@ See also [here](https://github.com/beuthbot/beuthbot#default-ports-of-services) 
 
 ```shell
 # check Rasa service running
-$ curl http://localhost:5005          # prints "Hello from Rasa: 1.6.0"
+$ curl http://localhost:5005          # prints "Hello from Rasa: 2.1.3"
 ```
 
 #### Local Rasa installation
