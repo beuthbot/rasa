@@ -29,7 +29,7 @@ update-model:
 	rm -f $(model_dir_training)/$(new_file)
 
 train:
-	docker-compose -f docker-compose.yml up
+	docker-compose -f docker-compose.yml up --build
 
 	# remove any existing model file
 	rm -rf ../app/models/nlu-*.tar.gz
