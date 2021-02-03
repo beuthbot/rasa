@@ -14,6 +14,11 @@ intents:
   - reminder-set-timespan
   - reminder-set-interval
   - reminder-remove
+  - vorlesungszeiten
+  - belegfrist
+  - beurlaubungFrist
+  - bewerbungsFristen
+  - lehrkraft
 
 
 session_config:
