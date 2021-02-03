@@ -1,0 +1,20 @@
+%[scraper]('training': '5000')
+    Gib mir die @[times]
+    Gebe mir die @[times]
+    Wann sind die @[times]
+    Nenn mir die @[times]
+    Nenne mir die @[times]
+    Zeige mir die @[times]
+    Zeig mir die @[times]
+    Ich brauche die @[times]
+    Ich brauche @[times]
+    Ich brauch @[times]
+    Ich will die @[times]
+    Ich will die @[times] sehen
+
+@[times]
+    Vorlesungszeiten
+    Ferien
+    Semesterferien
+
+
