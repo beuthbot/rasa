@@ -1,0 +1,88 @@
+%[link-user-get]('training': '200')
+    ~[get] ~[code]
+    ~[code] ~[get]
+    ~[get] @[messenger]
+    @[messenger] ~[get]
+
+%[link-user-set]('training': '200')
+    ~[link] @[messenger] @[linkingcode]
+    ~[link] @[linkingcode] @[messenger]
+    ~[link] @[linkingcode]
+    ~[link] ~[account] @[linkingcode]
+    ~[link] @[linkingcode] ~[account]
+    @[messenger] @[linkingcode] ~[link]
+    @[linkingcode] @[messenger] ~[link]
+    @[linkingcode] ~[link]
+    ~[account] @[linkingcode] ~[link]
+    @[linkingcode] ~[account] ~[link]
+    @[linkingcode] ~[link]
+
+%[link-user-remove]('training': '200')
+    ~[remove] @[messenger]
+    @[messenger] ~[remove]
+
+# ===---------------------------------------------------------------------------------===
+# Details
+# ===---------------------------------------------------------------------------------===
+
+@[linkingcode]
+    890890
+    123456
+    566568
+    787897
+    709698
+    478754
+    091237
+    867043
+
+@[messenger]
+    Telegram
+    Discord
+    Webseite
+    Site
+    Seite
+    Website
+
+# ===---------------------------------------------------------------------------------===
+# Synonyms
+# ===---------------------------------------------------------------------------------===
+
+~[get]
+    Gib mir
+    Ich möchte wissen
+    Erzähl mir
+    Erzähle mir
+    Lade
+
+~[link]
+    Verlinkunge
+    Connecte
+    Verknüpfe
+    Verbinde
+
+~[set]
+    Merke dir
+    Merke
+    Speichere
+    Speichere ab
+    Speicher
+    Speicher ab
+    Lerne
+    Behalte
+    Nehm zu Kenntnis
+
+~[remove]
+    Vergiss Verbindung
+    Lösche Verbindung
+    Entferne Verbindung
+
+~[code]
+    Code
+    Verlinkungscode
+    Verlinkung
+    Nummer
+
+~[account]
+    Account
+    Konto
+    Messenger

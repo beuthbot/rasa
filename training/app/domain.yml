@@ -6,6 +6,15 @@ intents:
   - database-set
   - database-remove
   - cats
+  - link-user-get
+  - link-user-set
+  - link-user-remove
+  - reminder-get
+  - reminder-set-once
+  - reminder-set-timespan
+  - reminder-set-interval
+  - reminder-remove
+
 
 session_config:
   session_expiration_time: 60

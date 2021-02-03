@@ -1,0 +1,110 @@
+%[reminder-get]('training': '200')
+    ~[get] ~[reminder]
+    ~[reminder] ~[get]
+
+%[reminder-set-once]('training': '200')
+    ~[set] @[date] an @[topic]
+
+%[reminder-set-interval]('training': '200')
+    ~[set] @[interval] an @[topic]
+
+%[reminder-set-timepsan]('training': '200')
+    ~[set] von @[date] bis @[date] @[interval] an @[topic]
+    ~[set] @[interval] von @[date] bis @[date] an @[topic]
+
+%[reminder-remove]('training': '200')
+    ~[remove] ~[reminder] @[number]
+    ~[remove] @[number] ~[reminder] 
+    @[number] ~[reminder] ~[remove]
+
+# ===---------------------------------------------------------------------------------===
+# Details
+# ===---------------------------------------------------------------------------------===
+
+@[number]
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+
+@[date]
+    heute
+    morgen gestern
+    übermorgen
+    vorgestern
+    24.06.
+    24.06
+    24. Juni
+    24.
+    in 10 Tagen
+
+@[interval]
+    jede Minute
+    jede Stunde
+    jeden Tag
+    jede Woche 
+    jeden Monat
+    jedes Jahr
+    alle 3 Minuten
+    alle 4 Stunden
+    alle 5 Wochen
+    alle 6 Monate
+    alle 7 Jahre
+    jeden Montag
+    jeden Dienstag
+    jeden Mittwoch
+    jeden Donnerstag
+    jeden Freitag
+    jeden Samstag
+    jeden Sonntag
+
+@[topic]
+    Matherklausur
+    Mittagessen
+    Geburtstag von meiner Mutter 
+    Katze füttern
+    Hausaufgaben machen
+    zum Zahnarzt gehen
+    den Ballettkurs
+    das Probeabonnement zu kündigen
+
+# ===---------------------------------------------------------------------------------===
+# Synonyms
+# ===---------------------------------------------------------------------------------===
+
+~[get]
+    Weist du
+    Wusstest du
+    Gib mir
+    Ich möchte wissen
+    Erzähl mir
+    Erzähle mir
+    Lade
+    Was weißt du
+
+~[set]
+    Erinnere mich
+    Erinner mich
+    Erinnere
+    Erinner
+
+~[remove]
+    Vergiss
+    Lösche
+    Entferne
+
+~[reminder]
+    Reminder
+    Erinnerungen
+    Erinnerung
+    Alarme
+    Alarm

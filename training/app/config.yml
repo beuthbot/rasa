@@ -10,7 +10,7 @@ pipeline:
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: DIETClassifier
-    epochs: 25
+    epochs: 30
   - name: EntitySynonymMapper
   - name: DucklingEntityExtractor
     url: "http://duckling:8000"
