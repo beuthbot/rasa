@@ -43,12 +43,17 @@
     Bis wann ist die @[bewerb] für den @[Studium]
     Nenne mir die @[bewerb] für den @[Studium]
     Nenn mir die @[bewerb] für den @[Studium]
+    Nenn mir die @[bewerb] für die @[Studium]
     Zeige mir die @[bewerb] für den @[Studium]
     Zeig mir die @[bewerb] für den @[Studium]
+    Zeig mir die @[bewerb] für die @[Studium]
     Ich will die @[bewerb] für den @[Studium]
+    Ich will die @[bewerb] für die @[Studium]
     Ich will die @[bewerb] für den @[Studium] sehen
+    Ich will die @[bewerb] für die @[Studium] sehen
     Bis wann kann man sich für den @[Studium] @[bewerb]
     Bis wann kann ich mich für den @[Studium] @[bewerb]
+    Bis wann kann ich mich für die @[Studium] @[bewerb]
 
 %[lehrkraft]('training': '5000')
     Gib mir die Daten von Frau @[prof]
@@ -93,8 +98,10 @@
 @[Studium]
     Bachelor
     Bachelorstudiengang
+    Bachelorstudiengänge
     Master
     Masterstudiengang
+    Masterstudiengänge
 
 @[prof]
     Ackermann
