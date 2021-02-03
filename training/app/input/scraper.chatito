@@ -40,15 +40,15 @@
     Bis wann kann ich mich @[beurlaub]
 
 %[bewerbungsFristen]('training': '5000')
-    Bis wann ist die @[bewerbBachelor] für den @[Studium]
-    Nenne mir die @[bewerbBachelor] für den @[Studium]
-    Nenn mir die @[bewerbBachelor] für den @[Studium]
-    Zeige mir die @[bewerbBachelor] für den @[Studium]
-    Zeig mir die @[bewerbBachelor] für den @[Studium]
-    Ich will die @[bewerbBachelor] für den @[Studium]
-    Ich will die @[bewerbBachelor] für den @[Studium] sehen
-    Bis wann kann man sich für den @[Studium] @[bewerbBachelor]
-    Bis wann kann ich mich für den @[Studium] @[bewerbBachelor]
+    Bis wann ist die @[bewerb] für den @[Studium]
+    Nenne mir die @[bewerb] für den @[Studium]
+    Nenn mir die @[bewerb] für den @[Studium]
+    Zeige mir die @[bewerb] für den @[Studium]
+    Zeig mir die @[bewerb] für den @[Studium]
+    Ich will die @[bewerb] für den @[Studium]
+    Ich will die @[bewerb] für den @[Studium] sehen
+    Bis wann kann man sich für den @[Studium] @[bewerb]
+    Bis wann kann ich mich für den @[Studium] @[bewerb]
 
 %[lehrkraft]('training': '5000')
     Gib mir die Daten von Frau @[prof]
