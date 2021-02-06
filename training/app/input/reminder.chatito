@@ -8,7 +8,7 @@
 %[reminder-set-interval]('training': '200')
     ~[set] @[interval] an @[topic]
 
-%[reminder-set-timepsan]('training': '200')
+%[reminder-set-timespan]('training': '200')
     ~[set] von @[date] bis @[date] @[interval] an @[topic]
     ~[set] @[interval] von @[date] bis @[date] an @[topic]
 
@@ -46,6 +46,24 @@
     24. Juni
     24.
     in 10 Tagen
+    in einer Minute
+    in 1 Minute
+    in eine Minute
+    in einer Stunde
+    in 1 Stunde
+    in eine Stunde
+    in einem Tag
+    in 1 Tag
+    in ein Tag
+    in einer Woche
+    in 1 Woche
+    in ein Woche
+    in einem Monat
+    in 1 Monat
+    in ein Monat
+    in einem Jahr
+    in 1 Jahr
+    in ein Jahr
 
 @[interval]
     jede Minute
